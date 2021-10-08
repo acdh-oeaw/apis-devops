@@ -1,5 +1,7 @@
 from .base import *
 import os
+import dj_database_url
+import re
 
 SECRET_KEY = '^mm-24*i-6iecm7c@0biscH4/7z9l+7%^ns^4g^z!8=dgffg4ulggr-4=1%'
 

@@ -1,3 +1,3 @@
-from .mpr_server.py import *
+from .mpr_server import *
 
 DEBUG = True
