@@ -37,3 +37,24 @@ production:
     name: mpr-dev
     url: http://mpr-dev.$KUBE_INGRESS_BASE_DOMAIN
     deployment_tier: production
+
+deploy_mpr:
+  <<: *production_template
+  environment:
+    name: mpr-prod
+    url: http://mpr.$KUBE_INGRESS_BASE_DOMAIN
+    deployment_tier: production
+
+deploy_pmb:
+  <<: *production_template
+  environment:
+    name: pmb-prod
+    url: http://pmb.$KUBE_INGRESS_BASE_DOMAIN
+    deployment_tier: production
+
+deploy_viecpro:
+  <<: *production_template
+  environment:
+    name: viecpro-prod
+    url: http://viecpro.$KUBE_INGRESS_BASE_DOMAIN
+    deployment_tier: production
