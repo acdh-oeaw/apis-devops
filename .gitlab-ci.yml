@@ -1,4 +1,5 @@
-include: "Deploy.gitlab-ci.yml"
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
 
 .production: &production_template
   extends: .auto-deploy
@@ -30,7 +31,7 @@ include: "Deploy.gitlab-ci.yml"
       when: never
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
-mpr_dev_deploy:
+production:
   <<: *production_template
   environment:
     name: mpr-dev
