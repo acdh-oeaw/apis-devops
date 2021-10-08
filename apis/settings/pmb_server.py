@@ -35,7 +35,7 @@ CSP_FRAME_SRC = ('sennierer.github.io',)
 ALLOWED_HOSTS = re.sub(
     r"https?://",
     "",
-    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,pmb.acdh.oeaw.ac.at,pmb.acdh-cluster.arz.oeaw.ac.at,pmb.acdh-dev.oeaw.ac.at,pmbdev.acdh-cluster.arz.oeaw.ac.at"),
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,pmb.acdh.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at,pmb.acdh-dev.oeaw.ac.at,pmbdev.acdh-cluster.arz.oeaw.ac.at"),
 ).split(",")
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
