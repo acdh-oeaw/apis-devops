@@ -1,4 +1,4 @@
-include: ".Deploy.gitlab-ci.yml"
+include: "Deploy.gitlab-ci.yml"
 
 .production: &production_template
   extends: .auto-deploy
