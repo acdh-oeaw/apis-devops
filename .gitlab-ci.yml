@@ -31,6 +31,9 @@ include:
       when: never
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
 
+production:
+  script: echo "starting deployment stages"
+
 mpr_dev_deploy:
   <<: *production_template
   environment:
