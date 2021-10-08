@@ -1,5 +1,5 @@
 include:
-  - template: Auto-DevOps.gitlab-ci.yml
+  - template: Deploy.gitlab-ci.yml
 
 .production: &production_template
   extends: .auto-deploy
@@ -30,9 +30,6 @@ include:
     - if: '$INCREMENTAL_ROLLOUT_MODE'
       when: never
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-
-production:
-  script: echo "starting deployment stages"
 
 mpr_dev_deploy:
   <<: *production_template

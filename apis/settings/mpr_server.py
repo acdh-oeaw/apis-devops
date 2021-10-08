@@ -7,12 +7,12 @@ import re
 SECRET_KEY = '^mm-24*i-6iecm7c@z9l+7%^ns^4g^z!8=dgffg4ulggr-4=1%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = re.sub(
     r"https?://",
     "",
-    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,mpr.acdh.oeaw.ac.at,mpr.acdh-cluster.arz.oeaw.ac.at"),
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,mpr.acdh.oeaw.ac.at,mpr.acdh-cluster.arz.oeaw.ac.at,mpr.acdh-dev.oeaw.ac.at"),
 ).split(",")
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
@@ -32,7 +32,6 @@ REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
     "rest_framework.permissions.IsAuthenticatedOrReadOnly",
 )
 
-CSRF_TRUSTED_ORIGINS = ['mpr.acdh.oeaw.ac.at']
 
 APIS_RELATIONS_FILTER_EXCLUDE += ['annotation', 'annotation_set_relation']
 
