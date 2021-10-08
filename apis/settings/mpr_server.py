@@ -8,7 +8,13 @@ SECRET_KEY = '^mm-24*i-6iecm7c@z9l+7%^ns^4g^z!8=dgffg4ulggr-4=1%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['mpr.acdh.oeaw.ac.at', 'mpr.acdh-cluster.arz.oeaw.ac.at', '0.0.0.0', 'localhost']
+ALLOWED_HOSTS = re.sub(
+    r"https?://",
+    "",
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,mpr.acdh.oeaw.ac.at,mpr.acdh-cluster.arz.oeaw.ac.at"),
+).split(",")
+# You need to allow '10.0.0.0/8' for service health checks.
+ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
 DEV_VERSION = False
 APIS_LIST_VIEWS_ALLOWED = True
