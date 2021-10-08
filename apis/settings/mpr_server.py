@@ -7,7 +7,7 @@ import re
 SECRET_KEY = '^mm-24*i-6iecm7c@z9l+7%^ns^4g^z!8=dgffg4ulggr-4=1%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = re.sub(
     r"https?://",
@@ -20,8 +20,6 @@ ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 DEV_VERSION = False
 APIS_LIST_VIEWS_ALLOWED = True
 APIS_DETAIL_VIEWS_ALLOWED = True
-
-INSTALLED_APPS += ['corsheaders']
 
 DATABASES = {}
 
