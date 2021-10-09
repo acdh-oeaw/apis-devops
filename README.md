@@ -4,7 +4,7 @@ This is a centralised APIS repository for deployment of default APIS instances t
 ## Adding a new instance
 For spinning up a new instance you need to:
 * Get a new database on Helios (ask an admin to get one)
-* Add a new deployment section to `.gitlab-ci.yml:
+* Add a new deployment section to `.gitlab-ci.yml`:
     ```
     deploy_PROJECT_SLUG-STAGE:
         <<: *production_template
