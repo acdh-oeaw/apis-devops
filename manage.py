@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
         import dal_select2
 
-        file_to_fix = "/app/staticfiles/autocomplete_light/select2.js"
+        file_to_fix = dal_select2.__file__.replace("/__init__.py", "/static/autocomplete_light/select2.js")
 
         try:
             with open(file_to_fix, "r") as f:
