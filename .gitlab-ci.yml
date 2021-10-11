@@ -35,26 +35,26 @@ production:
   <<: *production_template
   environment:
     name: mpr-dev
-    url: http://$CI_PROJECT_PATH_SLUG.$KUBE_INGRESS_BASE_DOMAIN
+    url: https://mpr.acdh-dev.oeaw.ac.at
     deployment_tier: production
 
 deploy_mpr:
   <<: *production_template
   environment:
     name: mpr-prod
-    url: http://$CI_PROJECT_PATH_SLUG.$KUBE_INGRESS_BASE_DOMAIN
+    url: https://mpr.acdh.oeaw.ac.at
     deployment_tier: production
 
 deploy_pmb:
   <<: *production_template
   environment:
     name: pmb-prod
-    url: http://$CI_PROJECT_PATH_SLUG.$KUBE_INGRESS_BASE_DOMAIN
+    url: https://pmb.acdh.oeaw.ac.at
     deployment_tier: production
 
 deploy_viecpro:
   <<: *production_template
   environment:
     name: viecpro-prod
-    url: http://$CI_PROJECT_PATH_SLUG.$KUBE_INGRESS_BASE_DOMAIN
+    url: https://viecpro.acdh-dev.oeaw.ac.at
     deployment_tier: production
