@@ -45,8 +45,8 @@ if __name__ == "__main__":
 
                 if \
                         line == "                processResults: function (data, page) {\n" and \
-                        lines[i+1] == "                    if (element.attr('data-tags')) {\n" and \
-                        lines[i+2] == "                        $.each(data.results, function(index, value) {\n" and \
+                        lines[i+1] == "                    if ($element.attr('data-tags')) {\n" and \
+                        lines[i+2] == "                        $.each(data.results, function (index, value) {\n" and \
                         lines[i+3] == "                            value.id = value.text;\n" :
 
                     lines[i+3] = "                            value.id = value.id;\n"
