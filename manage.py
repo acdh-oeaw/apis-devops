@@ -63,7 +63,7 @@ if __name__ == "__main__":
         
         try:
             with open(min_file_to_fix, "r") as f:
-                f_out = f.replace("e.id=e.text", "e.id=e.id")
+                f_out = f.read().replace("e.id=e.text", "e.id=e.id")
             with open(min_file_to_fix, "w") as f:
                 f.write(f_out)
         except FileNotFoundError:
