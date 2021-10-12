@@ -36,7 +36,8 @@ if __name__ == "__main__":
         import dal_select2
 
         file_to_fix = dal_select2.__file__.replace("/__init__.py", "/static/autocomplete_light/select2.js")
-
+        min_file_to_fix = dal_select2.__file__.replace("/__init__.py", "/static/autocomplete_light/select2.min.js") 
+        
         try:
             with open(file_to_fix, "r") as f:
                 lines = f.readlines()
@@ -47,7 +48,7 @@ if __name__ == "__main__":
                         line == "                processResults: function (data, page) {\n" and \
                         lines[i+1] == "                    if ($element.attr('data-tags')) {\n" and \
                         lines[i+2] == "                        $.each(data.results, function (index, value) {\n" and \
-                        lines[i+3] == "                            value.id = value.text;\n" :
+                        lines[i+3] == "                            value.id = value.text;\n":
 
                     lines[i+3] = "                            value.id = value.id;\n"
 
@@ -57,6 +58,17 @@ if __name__ == "__main__":
         except FileNotFoundError:
             raise Exception(
                 "Could not find select2.js file to inject bug workaround into.\n" +
+                "Maybe the dal_select library has changed and this workaround is not necessary anymore?"
+            )
+        
+        try:
+            with open(min_file_to_fix, "r") as f:
+                f_out = f.replace("e.id=e.text", "e.id=e.id")
+            with open(min_file_to_fix, "w") as f:
+                f.write(f_out)
+        except FileNotFoundError:
+            raise Exception(
+                "Could not find select2.min.js file to inject bug workaround into.\n" +
                 "Maybe the dal_select library has changed and this workaround is not necessary anymore?"
             )
 
