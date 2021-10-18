@@ -58,3 +58,10 @@ deploy_viecpro:
     name: viecpro-prod
     url: https://viecpro.acdh-dev.oeaw.ac.at
     deployment_tier: production
+
+deploy_acdh21:
+  <<: *production_template
+  environment:
+    name: acdh21-dev
+    url: https://acdh21.acdh-dev.oeaw.ac.at
+    deployment_tier: production
