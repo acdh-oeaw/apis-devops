@@ -30,7 +30,7 @@ CSP_DEFAULT_SRC = ("'self'", "'unsafe-inline'", 'cdnjs.cloudflare.com', 'cdn.jsd
 CSP_FRAME_SRC = ('sennierer.github.io',)
 
 REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
-    "rest_framework.permissions.IsAuthenticatedOrReadOnly",
+    "rest_framework.permissions.IsAuthenticated",
 )
 
 
