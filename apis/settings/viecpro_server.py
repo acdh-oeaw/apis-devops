@@ -47,6 +47,7 @@ SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
 
 
 INSTALLED_APPS += ["viecpro_vis"]
+
 DATABASES = {}
 
 DATABASES["default"] = dj_database_url.config(conn_max_age=600)
