@@ -1764,7 +1764,7 @@ py = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
 name = "qtconsole"
-version = "5.1.1"
+version = "5.2.0"
 description = "Jupyter Qt console"
 category = "dev"
 optional = false
@@ -2124,14 +2124,11 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "viecpro-vis"
-version = "0.1.4"
+version = "0.1.6"
 description = "Django-App providing visualisations for the APIS-VieCPro instance."
 category = "main"
 optional = false
 python-versions = ">=3.6,<3.9"
-
-[package.dependencies]
-apis-core = ">=0.16.33,<0.17.0"
 
 [[package]]
 name = "volatile"
@@ -2233,7 +2230,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "df3e6fd861f8c2f470ddcb71038cd80b630eef9a73036f6bd485702995448aee"
+content-hash = "67e587abd1e3bc2af9ac687bf3dbb789252cc1b29834ca87c5daff883e1fcd50"
 
 [metadata.files]
 acdh-django-charts = [
@@ -3382,8 +3379,8 @@ pyzmq = [
     {file = "pyzmq-22.3.0.tar.gz", hash = "sha256:8eddc033e716f8c91c6a2112f0a8ebc5e00532b4a6ae1eb0ccc48e027f9c671c"},
 ]
 qtconsole = [
-    {file = "qtconsole-5.1.1-py3-none-any.whl", hash = "sha256:73994105b0369bb99f4164df4a131010f3c7b33a7b5169c37366358d8744675b"},
-    {file = "qtconsole-5.1.1.tar.gz", hash = "sha256:bbc34bca14f65535afcb401bc74b752bac955e5313001ba640383f7e5857dc49"},
+    {file = "qtconsole-5.2.0-py3-none-any.whl", hash = "sha256:a287f9f0f7365ccb2f2a88e0cd4da883822e94d15b75dc19098cd8eec44d70d1"},
+    {file = "qtconsole-5.2.0.tar.gz", hash = "sha256:6bb4df839609f240194213407872076f871e3a3884cf8e785068e8c7f39344c6"},
 ]
 qtpy = [
     {file = "QtPy-1.11.2-py2.py3-none-any.whl", hash = "sha256:83c502973e9fdd7b648d8267a421229ea3d9a0651c22e4c65a4d9228479c39b6"},
@@ -3681,8 +3678,8 @@ urllib3 = [
     {file = "urllib3-1.26.7.tar.gz", hash = "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"},
 ]
 viecpro-vis = [
-    {file = "viecpro_vis-0.1.4-py3-none-any.whl", hash = "sha256:b1a8ab43a480a39cadbaf41b0bdd857ade8f25912ec2d1289dc0cdcb87876870"},
-    {file = "viecpro_vis-0.1.4.tar.gz", hash = "sha256:9a3834a719d95d06a837f28e777960210d6676496302a40259473f697803478a"},
+    {file = "viecpro_vis-0.1.6-py3-none-any.whl", hash = "sha256:1b1a76da869c6fb38ce69d26daf4bc86bbbacb4bdd05f06b5d30c3a872f834fa"},
+    {file = "viecpro_vis-0.1.6.tar.gz", hash = "sha256:2a8b748dec1dd5f9828e7f9290fa7bcb7268506f35f21b4b1b849ee57563c88d"},
 ]
 volatile = [
     {file = "volatile-2.1.0.tar.gz", hash = "sha256:9be36ad508e3354e016c115de0397dc2203b9800a73d9d177ca9d37a8d3a31d3"},

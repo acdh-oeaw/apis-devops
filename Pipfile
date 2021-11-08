@@ -50,8 +50,7 @@ sparqlwrapper = "==1.*,>=1.8.5"
 tablib = "==3.*,>=3.0.0"
 unicodecsv = "==0.*,>=0.14.1"
 whitenoise = "==5.*,>=5.2.0"
-viecpro-vis = "==0.*,>=0.1.5"
-
+viecpro_vis = "==0.*,>=0.1.6"
 
 [dev-packages]
 jupyter = "==1.*,>=1.0.0"
