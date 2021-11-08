@@ -100,7 +100,7 @@
                                     <span class="caret"/>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {% if "viecpro_vis" in APPS%}
+                                    {% if "viecpro_vis" in APPS %}
                                     <a class="dropdown-item" href="{% url 'viecpro_vis:start_view' %}">Hierarchy</a>
                                     {% else %}
                                     <a class="dropdown-item" href="{% url 'apis:apis_entities:generic_network_viz' %}">Netzwerk</a>
