@@ -2124,7 +2124,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 
 [[package]]
 name = "viecpro-vis"
-version = "0.1.8"
+version = "0.1.9"
 description = "Django-App providing visualisations for the APIS-VieCPro instance."
 category = "main"
 optional = false
@@ -2230,7 +2230,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "5022fcb066f0dc318c31baeace799487f20c772b4d04cff3ba9263a59ce65c94"
+content-hash = "86aaa25831abcb2b309e28784120e944782c4dc161ab450dc0c200b9b88ee375"
 
 [metadata.files]
 acdh-django-charts = [
@@ -3679,8 +3679,8 @@ urllib3 = [
     {file = "urllib3-1.26.7.tar.gz", hash = "sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece"},
 ]
 viecpro-vis = [
-    {file = "viecpro_vis-0.1.8-py3-none-any.whl", hash = "sha256:e9d98e4dfcd85f4f13045031a1ce47881739f8e393d1b4cfd91d99319c38b8c4"},
-    {file = "viecpro_vis-0.1.8.tar.gz", hash = "sha256:673002dba3088c5f0302e1aa0baeff86793166a9b93cb9296cdaa8999c858af8"},
+    {file = "viecpro_vis-0.1.9-py3-none-any.whl", hash = "sha256:f1d6f69858c7c13569a5a2884610d1838bad5014d36f90b6c45acf0ba66030ce"},
+    {file = "viecpro_vis-0.1.9.tar.gz", hash = "sha256:b6f6be5d4ee35da374b8ce1d6b4da87b3e5efe3f3a278c438f41a477396c3be0"},
 ]
 volatile = [
     {file = "volatile-2.1.0.tar.gz", hash = "sha256:9be36ad508e3354e016c115de0397dc2203b9800a73d9d177ca9d37a8d3a31d3"},

@@ -51,7 +51,7 @@ django-csp = "^3.7"
 dephell = "^0.8.3"
 apis-highlighter = "^0.8.18"
 apis-bibsonomy = "^0.2.3"
-viecpro_vis = ">0.1.7"
+viecpro-vis = "^0.1.9"
 
 [tool.poetry.dev-dependencies]
 black = "^20.8b1"
