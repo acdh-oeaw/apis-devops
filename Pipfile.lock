@@ -1487,11 +1487,11 @@
         },
         "viecpro-vis": {
             "hashes": [
-                "sha256:3c171bac168152c64bd844af77cce7907543baa3bd34dd0948f987bc0e972767",
-                "sha256:d926a187fa7d01eb8321e7f38cb010ef70fc4ee871a2fade725994da696516bb"
+                "sha256:673002dba3088c5f0302e1aa0baeff86793166a9b93cb9296cdaa8999c858af8",
+                "sha256:e9d98e4dfcd85f4f13045031a1ce47881739f8e393d1b4cfd91d99319c38b8c4"
             ],
             "index": "pypi",
-            "version": "==0.1.7"
+            "version": "==0.1.8"
         },
         "volatile": {
             "hashes": [
