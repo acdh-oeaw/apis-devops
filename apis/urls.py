@@ -41,6 +41,11 @@ else:
         url(r"^", include("webpage.urls", namespace="webpage")),
     ]
 
+
+if 'viecpro_vis' in settings.INSTALLED_APPS:
+    urlpatterns.insert(0, url(r'^visualisations/', include("viecpro_vis.urls", namespace="viecpro_vis"))
+    )
+        
 if "transkribus" in settings.INSTALLED_APPS:
     urlpatterns = urlpatterns + [
         url(r"^transkribus/", include("transkribus.urls")),

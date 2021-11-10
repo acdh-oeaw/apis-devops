@@ -33,7 +33,7 @@ ALLOWED_HOSTS = re.sub(
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
-CSP_DEFAULT_SRC = ("'self'", "'unsafe-inline'", 'cdnjs.cloudflare.com', 'cdn.jsdelivr.net', 'ajax.googleapis.com', 'fonts.googleapis.com', 'cdn.rawgit.com', "*.acdh.oeaw.ac.at", "unpkg.com", "fonts.gstatic.com", "cdn.datatables.net", "code.highcharts.com", "*.acdh-dev.oeaw.ac.at", "*.acdh.oeaw.ac.at")
+CSP_DEFAULT_SRC = ("'self'", "'unsafe-inline'", 'cdnjs.cloudflare.com', 'cdn.jsdelivr.net', 'ajax.googleapis.com', 'fonts.googleapis.com', 'cdn.rawgit.com', "*.acdh.oeaw.ac.at", "unpkg.com", "fonts.gstatic.com", "cdn.datatables.net", "code.highcharts.com", "*.acdh-dev.oeaw.ac.at", "*.acdh.oeaw.ac.at", "sharonchoong.github.io", "github.com/devongovett")
 CSP_FRAME_SRC = ('sennierer.github.io',)
 
 SECRET_KEY = (
@@ -44,6 +44,9 @@ DEV_VERSION = False
 
 SPECTACULAR_SETTINGS["COMPONENT_SPLIT_REQUEST"] = True
 SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
+
+
+INSTALLED_APPS += ["viecpro_vis",]
 
 DATABASES = {}
 
