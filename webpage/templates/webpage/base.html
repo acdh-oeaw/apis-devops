@@ -95,18 +95,16 @@
                                     <a class="dropdown-item" href="{% url 'webpage:staticpage' template='uri_resolver' %}">URI-Resolver</a>
                                 </div>
                             </li>
+                            {% if "viecpro_vis" in APPS %}
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualisations
                                     <span class="caret"/>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {% if "viecpro_vis" in APPS %}
                                     <a class="dropdown-item" href="{% url 'viecpro_vis:start_view' %}">Hierarchy</a>
-                                    {% else %}
-                                    <a class="dropdown-item" href="{% url 'apis:apis_entities:generic_network_viz' %}">Netzwerk</a>
-                                    {% endif %}
                                 </div>
                             </li>
+                            {% endif %}
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relations
                                     <span class="caret"/>
