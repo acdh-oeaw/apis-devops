@@ -1,6 +1,24 @@
 include:
   - template: Auto-DevOps.gitlab-ci.yml
 
+stages:
+  - build
+  - test
+  - deploy  # dummy stage to follow the template guidelines
+  - review
+  - dast
+  - staging
+  - canary
+  - production
+  - incremental rollout 10%
+  - incremental rollout 25%
+  - incremental rollout 50%
+  - incremental rollout 100%
+  - performance
+  - cleanup
+  - trigger_docker_build
+
+
 .production: &production_template
   extends: .auto-deploy
   stage: production
@@ -65,3 +83,11 @@ deploy_acdh21:
     name: acdh21-dev
     url: https://acdh21.acdh-dev.oeaw.ac.at
     deployment_tier: production
+
+trigger_docker_build:
+  stage: trigger_docker_build
+  only:
+    refs:
+      - master
+  trigger: acdh-oeaw/apis/apis-docker-public
+
