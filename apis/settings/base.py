@@ -245,25 +245,35 @@ APIS_ALTERNATE_NAMES = [
 ]
 
 APIS_RELATIONS_FILTER_EXCLUDE = [
-    "uri",
-    "tempentityclass",
+    "*uri*",
+    "*tempentityclass*",
     "user",
-    "__id",
-    "source",
+    "*__id",
+    "*source*",
     "label",
-    "temp_entity",
-    "collection__",
+    "*temp_entity*",
+    "*collection*",
+    "*published*",
+    "*_set",
+    "*_set__*",
     "_ptr",
     "baseclass",
-    "id",
-    "written",
-    "relation_type__description",
-    "relation_type__parent_class",
-    "relation_type__status",
-    "relation_type__vocab_name",
-    "relation_type__name_reverse",
-    "__text",
-    "annotation_set_relation",
+    "*id",
+    "*written*",
+    "relation_type__*",
+    "*__text*",
+    "text*",
+    "*annotation_set_relation*",
+    "*start_start_date*",
+    "*end_end_date*",
+    "*start_end_date*",
+    "*end_start_date*",
+    "*label*",
+    "*review*",
+    "*__name",
+    "*__status",
+    "*__references",
+    "*__notes",
 ]
 
 APIS_RELATIONS = {
@@ -278,7 +288,9 @@ APIS_RELATIONS = {
             "related_person__first_name",
             "related_place__name",
         ],
+       # "include": ["related_place"], use include statement to set a list of filters
         "list_filters": [("relation_type",), ("related_person",), ("related_place",)],
+        "exclude": ["related_person__first_name", "related_place__lng", "related_place__lat"]
     },
     "PersonInstitution": {
         "labels": ["related_person", "related_institution", "relation_type"],
@@ -292,7 +304,8 @@ APIS_RELATIONS = {
             ("relation_type",),
             ("related_person",),
             ("related_institution",),
-        ],
+            ],
+        "exclude": ["related_person__first_name"]
     },
     "PersonEvent": {
         "labels": ["related_person", "related_event", "relation_type"],
@@ -303,6 +316,7 @@ APIS_RELATIONS = {
             "related_event__name",
         ],
         "list_filters": [("relation_type",), ("related_person",), ("related_event",)],
+        "exclude": ["related_person__first_name"]
     },
     "PersonWork": {
         "labels": ["related_person", "related_work", "relation_type"],
@@ -313,6 +327,7 @@ APIS_RELATIONS = {
             "related_work__name",
         ],
         "list_filters": [("relation_type",), ("related_person",), ("related_work",)],
+        "exclude": ["related_person__first_name"]
     },
     "PersonPerson": {
         "labels": ["related_personA", "related_personB", "relation_type"],
@@ -328,6 +343,7 @@ APIS_RELATIONS = {
             ("related_personA",),
             ("related_personB",),
         ],
+        "exclude": ["related_person__first_name"]
     },
     "InstitutionPlace": {
         "labels": ["related_institution", "related_place", "relation_type"],
@@ -341,6 +357,7 @@ APIS_RELATIONS = {
             ("related_institution",),
             ("related_place",),
         ],
+        "exclude": ["related_place__lat", "related_place__lng"]
     },
     "InstitutionWork": {
         "labels": ["related_institution", "related_work", "relation_type"],
@@ -385,11 +402,13 @@ APIS_RELATIONS = {
         "labels": ["related_work", "related_place", "relation_type"],
         "search": ["relation_type__name", "related_place__name", "related_work__name"],
         "list_filters": [("relation_type",), ("related_place",), ("related_work",)],
+        "exclude": ["related_place__lat", "related_place__lng"]
     },
     "PlaceEvent": {
         "labels": ["related_event", "related_place", "relation_type"],
         "search": ["relation_type__name", "related_place__name", "related_event__name"],
         "list_filters": [("relation_type",), ("related_place",), ("related_event",)],
+        "exclude": ["related_place__lat", "related_place__lng"]
     },
     "PlacePlace": {
         "labels": ["related_placeA", "related_placeB", "relation_type"],
@@ -399,6 +418,7 @@ APIS_RELATIONS = {
             "related_placeB__name",
         ],
         "list_filters": [("relation_type",), ("related_placeA",), ("related_placeB",)],
+        "exclude": ["related_place__lat", "related_place__lng"]
     },
     "EventWork": {
         "labels": ["related_event", "related_work", "relation_type"],

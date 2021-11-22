@@ -25,3 +25,4 @@ viecpro_vis = "==0.*,>=0.1.9"
 jupyter = "==1.*,>=1.0.0"
 jupyter-tabnine = "==1.*,>=1.2.3"
 pylint = "==2.*,>=2.6.0"
+dephell = {version = "==0.*,>=0.8.3", extras = ["full"]}
