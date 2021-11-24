@@ -72,7 +72,7 @@ APIS_RELATIONS_FILTER_EXCLUDE = [
     "baseclass",
     "*id",
     "*written*",
-    "relation_type__*",
+    #"relation_type__*",
     "*__text*",
     "text*",
     "*annotation_set_relation*",
