@@ -87,6 +87,7 @@ INSTALLED_APPS = [
     "guardian",
     "charts",
     "infos",
+    "csvexport",
 ]
 
 USE_X_FORWARDED_HOST = True

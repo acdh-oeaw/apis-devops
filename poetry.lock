@@ -2122,7 +2122,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "d2323f1f223648d1ae16dfa9e2b8224a4a08850d76a7e70caf97efbcb4f24983"
+content-hash = "41c4f43ee72bc4fdf22ce55d44ca989dc9ef0392b3c91984e2c991e43b99accb"
 
 [metadata.files]
 acdh-django-charts = [

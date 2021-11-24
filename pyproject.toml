@@ -21,6 +21,7 @@ django-csp = "^3.7"
 apis-highlighter = "^0.8.18"
 apis-bibsonomy = "^0.2.3"
 viecpro-vis = "^0.1.9"
+django-admin-csvexport = "^1.11"
 
 [tool.poetry.dev-dependencies]
 django-extensions = "^3.1.0"

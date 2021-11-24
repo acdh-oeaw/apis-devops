@@ -20,6 +20,7 @@ mysqlclient = "==2.*,>=2.0.3"
 sentry-sdk = "==0.*,>=0.19.5"
 whitenoise = "==5.*,>=5.2.0"
 viecpro_vis = "==0.*,>=0.1.9"
+django-admin-csvexport = "==1.*,>=1.11.0"
 
 [dev-packages]
 jupyter = "==1.*,>=1.0.0"
