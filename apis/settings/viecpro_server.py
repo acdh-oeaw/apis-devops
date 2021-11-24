@@ -56,6 +56,41 @@ DATABASES["default"] = dj_database_url.config(conn_max_age=600)
 LANGUAGE_CODE = "de"
 
 
+APIS_RELATIONS_FILTER_EXCLUDE = [
+    "*uri*",
+    "*tempentityclass*",
+    "user",
+    "*__id",
+    "*source*",
+    "label",
+    "*temp_entity*",
+    "*collection*",
+    "*published*",
+    "*_set",
+    "*_set__*",
+    "_ptr",
+    "baseclass",
+    "*id",
+    "*written*",
+    #"relation_type__*",
+    "*__text*",
+    "text*",
+    "*annotation_set_relation*",
+    "*start_start_date*",
+    "*end_end_date*",
+    "*start_end_date*",
+    "*end_start_date*",
+    "*label*",
+    "*review*",
+    "*__status",
+    "*__references",
+    "*__notes",
+]
+
+
+
+
+
 # APIS_COMPONENTS = ['deep learning']
 
 # APIS_BLAZEGRAPH = ('https://blazegraph.herkules.arz.oeaw.ac.at/metaphactory-play/sparql', 'metaphactory-play', 'KQCsD24treDY')
