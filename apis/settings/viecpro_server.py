@@ -97,3 +97,5 @@ APIS_RELATIONS_FILTER_EXCLUDE = [
 
 
 APIS_RELATIONS_FILTER_EXCLUDE += ["annotation", "annotation_set_relation"]
+
+VIECPRO_VIS_BASE_URI = "https://viecpro.acdh-dev.oeaw.ac.at/"
