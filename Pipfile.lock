@@ -690,11 +690,11 @@
         },
         "viecpro-vis": {
             "hashes": [
-                "sha256:b6f6be5d4ee35da374b8ce1d6b4da87b3e5efe3f3a278c438f41a477396c3be0",
-                "sha256:f1d6f69858c7c13569a5a2884610d1838bad5014d36f90b6c45acf0ba66030ce"
+                "sha256:6e47454955b7fb273f2c64aad43e61c2270a0ae51852093e159080d0bd438f00",
+                "sha256:a4b2e89a318e8f1bc10cdd7f95de77ce6befba35423e9f8eda149558909ec895"
             ],
             "index": "pypi",
-            "version": "==0.1.9"
+            "version": "==0.1.10"
         },
         "webencodings": {
             "hashes": [
