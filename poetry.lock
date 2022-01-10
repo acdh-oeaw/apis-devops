@@ -73,7 +73,7 @@ apis-core = ">=0.16.14,<0.17.0"
 
 [[package]]
 name = "apis-core"
-version = "0.16.42"
+version = "0.16.44"
 description = "Base package for the APIS framework"
 category = "main"
 optional = false
@@ -2141,7 +2141,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "183895b8464b0cd428bf0f6aaeefdd771ea4c32cf1b0127503b81169713cd0d4"
+content-hash = "f71922c99deae5c59d439597a3d52ef9d8fd55052af9e05d6fda56e219f0006a"
 
 [metadata.files]
 acdh-django-charts = [
@@ -2239,8 +2239,8 @@ apis-bibsonomy = [
     {file = "apis_bibsonomy-0.2.3-py3-none-any.whl", hash = "sha256:ba1aa367522f8c4d4c09af2e164b9eacd73b7a99b4a45697d6c88590ab48410d"},
 ]
 apis-core = [
-    {file = "apis-core-0.16.42.tar.gz", hash = "sha256:ae124546622d9bdb92d44a12e97716e97984714e09b8b9861d86ab0710904b2d"},
-    {file = "apis_core-0.16.42-py3-none-any.whl", hash = "sha256:a13b9946d629b02674b70e17adb2fa3c7d570d27064a2c212b743a2c5cdb6089"},
+    {file = "apis-core-0.16.44.tar.gz", hash = "sha256:95b678663a48ce944212ad25b946b3586062266a96573493d117a06c62e514a7"},
+    {file = "apis_core-0.16.44-py3-none-any.whl", hash = "sha256:6b50001f9b26a078f7bb6a2c69c80e340dcf3c675d23acd56eb88f8e57adc09c"},
 ]
 apis-highlighter = [
     {file = "apis-highlighter-0.8.20.tar.gz", hash = "sha256:843c3137017f29958ef038d2d203b7d287bb74c81c241a82893f37bd2dc97c02"},

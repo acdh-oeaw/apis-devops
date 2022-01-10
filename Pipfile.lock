@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9f51f2be84de93aabd6a7d1b2f4206a7a6d48c62871ea695069b8dac22609617"
+            "sha256": "f2b5f0348b5f9163202e57bb4bdafd566357f05847b045d3d0bd896fea289a4e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -41,11 +41,11 @@
         },
         "apis-core": {
             "hashes": [
-                "sha256:a13b9946d629b02674b70e17adb2fa3c7d570d27064a2c212b743a2c5cdb6089",
-                "sha256:ae124546622d9bdb92d44a12e97716e97984714e09b8b9861d86ab0710904b2d"
+                "sha256:6b50001f9b26a078f7bb6a2c69c80e340dcf3c675d23acd56eb88f8e57adc09c",
+                "sha256:95b678663a48ce944212ad25b946b3586062266a96573493d117a06c62e514a7"
             ],
             "index": "pypi",
-            "version": "==0.16.42"
+            "version": "==0.16.44"
         },
         "apis-highlighter": {
             "hashes": [
@@ -1212,7 +1212,7 @@
                 "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7",
                 "sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951"
             ],
-            "markers": "python_version < '4' and python_full_version >= '3.6.1'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.1'",
             "version": "==5.10.1"
         },
         "jedi": {
@@ -1881,7 +1881,7 @@
                 "sha256:29e84a855712dfe0e88a48f6d05c21118dbafb283bb2eed614d46f80deb8e9a1",
                 "sha256:b824e3466f1d475b2b5f1c392954c6cb7ea04d64354ff7300dc7c14257dc85db"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
             "version": "==0.8.0"
         },
         "tornado": {
@@ -2138,7 +2138,7 @@
                 "sha256:c8d34eca9fda3f4dfbe59f57f3cf0f3641af3eefbf1544fbeb9b3bacf82c580a",
                 "sha256:d574cbfaf0a349df466c91f7f81b22460ae5ebb15ecb8bf9411d6049923aee8d"
             ],
-            "markers": "python_version < '4' and python_full_version >= '3.6.2'",
+            "markers": "python_version < '4.0' and python_full_version >= '3.6.2'",
             "version": "==2.1.0"
         },
         "zipp": {

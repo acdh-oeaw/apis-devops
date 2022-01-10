@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 acdh-django-charts = "==0.*,>=0.5.3"
 apis-bibsonomy = "==0.*,>=0.2.3"
-apis-core = "==0.16.42"
+apis-core = "==0.16.*,>=0.16.0"
 apis-highlighter = "==0.*,>=0.8.18"
 dj-database-url = "==0.*,>=0.5.0"
 django-admin-csvexport = "==1.*,>=1.11.0"

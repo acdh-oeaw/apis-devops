@@ -22,7 +22,7 @@ apis-bibsonomy = "^0.2.3"
 viecpro-vis = "^0.1.10"
 django-admin-csvexport = "^1.11"
 django-autocomplete-light = "^3.9.0rc1"
-apis-core = "0.16.42"
+apis-core = "~0.16"
 
 [tool.poetry.dev-dependencies]
 django-extensions = "^3.1.0"
