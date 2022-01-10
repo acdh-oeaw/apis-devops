@@ -70,6 +70,13 @@ deploy_viecpro:
     url: https://viecpro.acdh-dev.oeaw.ac.at
     deployment_tier: production
 
+deploy_viecpro_dev:
+  <<: *production_template
+  environment:
+    name: viecpro-dev
+    url: https://viecpro-dev.acdh-dev.oeaw.ac.at
+    deployment_tier: production
+ 
 deploy_pmb:
   <<: *production_template
   environment:

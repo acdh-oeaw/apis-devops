@@ -28,7 +28,7 @@ APIS_SKOSMOS = {
 ALLOWED_HOSTS = re.sub(
     r"https?://",
     "",
-    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,viecpro.acdh-dev.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at"),
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,viecpro-dev.acdh-dev.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at"),
 ).split(",")
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
@@ -98,4 +98,4 @@ APIS_RELATIONS_FILTER_EXCLUDE = [
 
 APIS_RELATIONS_FILTER_EXCLUDE += ["annotation", "annotation_set_relation"]
 
-VIECPRO_VIS_BASE_URI = "https://viecpro.acdh-dev.oeaw.ac.at/"
+VIECPRO_VIS_BASE_URI = "https://viecpro-dev.acdh-dev.oeaw.ac.at/"
