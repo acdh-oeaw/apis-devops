@@ -47,6 +47,8 @@ BIRTH_REL = [88, ]
 DEATH_REL = [89, ]
 PL_A_PART_OF = [1106, 1136]
 PL_B_LOCATED_IN = [971, ]
+ORG_LOCATED_IN = [1141, 970, 1160]
+AUTHOR_RELS = [1049, ]
 
 import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
