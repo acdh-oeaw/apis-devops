@@ -1,4 +1,4 @@
-from .base_dev import *
+from .base import *
 import os
 import dj_database_url
 import re
