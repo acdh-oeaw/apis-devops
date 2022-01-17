@@ -24,7 +24,7 @@ APIS_RELATIONS_FILTER_EXCLUDE += ['annotation', 'annotation_set_relation']
 
 APIS_LIST_VIEWS_ALLOWED = False
 APIS_DETAIL_VIEWS_ALLOWED = False
-REDMINE_ID = "15062"
+REDMINE_ID = "17197"
 
 #REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
 #    "rest_framework.permissions.IsAuthenticatedOrReadOnly",
@@ -33,7 +33,7 @@ REDMINE_ID = "15062"
 ALLOWED_HOSTS = re.sub(
     r"https?://",
     "",
-    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,ica.acdh-dev.oeaw.ac.at"),
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,ica.acdh-dev.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at"),
 ).split(",")
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
