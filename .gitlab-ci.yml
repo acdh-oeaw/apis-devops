@@ -84,6 +84,13 @@ deploy_acdh21:
     url: https://acdh21.acdh-dev.oeaw.ac.at
     deployment_tier: production
 
+deploy_ica:
+  <<: *production_template
+  environment:
+    name: ica-prod
+    url: https://ica.acdh-dev.oeaw.ac.at
+    deployment_tier: production
+
 trigger_docker_build:
   stage: trigger_docker_build
   rules:
