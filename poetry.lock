@@ -129,7 +129,7 @@ apis-core = ">=0.16.0"
 
 [[package]]
 name = "apis-import-project"
-version = "0.1.0"
+version = "0.2.0"
 description = "Generic Django-App for APIS-instances to support importing new data manually with a streamlined workflow and some automation."
 category = "main"
 optional = false
@@ -2264,7 +2264,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "dfcde42fec0cbe9498a5469b34e585317e8196b63f07dc37d157696aff368d2e"
+content-hash = "77870069adf945a7b8915a975c8f3b59f9e0e4c6f6abd4c734ac73211cf32ca6"
 
 [metadata.files]
 acdh-django-charts = [
@@ -2370,8 +2370,8 @@ apis-highlighter = [
     {file = "apis_highlighter-0.9.0-py3-none-any.whl", hash = "sha256:84cf2a49bdb752288799165bf01f19fd20c2a7ffdc35533eec3fbf38d675afac"},
 ]
 apis-import-project = [
-    {file = "apis_import_project-0.1.0-py3-none-any.whl", hash = "sha256:9d9077bbcc177519889d3db23e832e24c7c4b06c464cb5587fb3703e00d55366"},
-    {file = "apis_import_project-0.1.0.tar.gz", hash = "sha256:1dad89c917dd869ae3cf5def93b8d0910aa9849021505e358657f1402567995e"},
+    {file = "apis_import_project-0.2.0-py3-none-any.whl", hash = "sha256:da1516bc8696632c5d05e199f5d8f0614a7e9329abbfbd77450cc154637b7418"},
+    {file = "apis_import_project-0.2.0.tar.gz", hash = "sha256:96ccdf2ca7e119f36fc1d972dbb8e30ea6d0995323f0d56dd468628c1a8e4fc3"},
 ]
 appdirs = [
     {file = "appdirs-1.4.4-py2.py3-none-any.whl", hash = "sha256:a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"},
