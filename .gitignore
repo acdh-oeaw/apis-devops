@@ -1,3 +1,5 @@
 .devcontainer/
 *.pyc
 .idea
+apis/.DS_*
+.DS_*
