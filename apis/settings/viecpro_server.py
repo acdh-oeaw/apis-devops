@@ -19,6 +19,8 @@ FEATURED_COLLECTION_NAME = "FEATURED"
 APIS_BASE_URI = "https://viecpro.acdh.oeaw.ac.at/"
 # APIS_OEBL_BIO_COLLECTION = "ÖBL Biographie"
 
+APIS_IMPORT_PROJECT_IIIF_BASE_URL = "https://iiif.acdh-dev.oeaw.ac.at/iiif/images/viecpro/"
+
 APIS_SKOSMOS = {
     "url": os.environ.get("APIS_SKOSMOS", "https://vocabs.acdh-dev.oeaw.ac.at"),
     "vocabs-name": os.environ.get("APIS_SKOSMOS_THESAURUS", "apisthesaurus"),
@@ -45,7 +47,7 @@ SPECTACULAR_SETTINGS["COMPONENT_SPLIT_REQUEST"] = True
 SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
 
 
-INSTALLED_APPS += ["viecpro_vis",]
+INSTALLED_APPS += ["viecpro_vis", "apis-import-project"]
 
 DATABASES = {}
 
