@@ -1,177 +1,173 @@
-acdh-django-charts @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/29/6d/f0/6bd3acc812ba87b597d6f45fb4ce55266b22de934462c9fcc1e003926d/acdh_django_charts-0.5.3-py2.py3-none-any.whl
-aiofiles @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/44/26/8b/1f34e3b250c4ec7952f3ba92f7cecc24e36ca82c7b45e83f5ec920b53e/aiofiles-0.8.0-py3-none-any.whl
-aiohttp @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/61/80/81/4e258efe2401d0402649d57ee0fae07d6b5b5df1d3842d3056de7954fb/aiohttp-3.8.1-cp38-cp38-macosx_10_9_x86_64.whl
-aiosignal @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4c/98/1b/ee90d29611d2aaeb4a2b40c1509ca578cccf552d05a53563f4f8bf9bb3/aiosignal-1.2.0-py3-none-any.whl
-anytree @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4d/02/b4/bce7a776b055cba4566fcf7e318068316b3ee7b96d7adfd88c0d5c9caa/anytree-2.8.0-py2.py3-none-any.whl
-apis-bibsonomy @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/6e/1a/b9/e8ad3725e9f98a0df9d3e84cd0d3d15e6ff5e66467c60bd8193ac92b96/apis_bibsonomy-0.3.0-py3-none-any.whl
-apis-core @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/6d/05/2b/bbcf712f98101c839eac5f85f32bde7b06e420dedfa4eca92765111812/apis_core-0.17.5-py3-none-any.whl
-apis-highlighter @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/fb/6f/cc/60a84d6c8c347277073805800d2d68eac82d9857db575e6a7f9d573480/apis_highlighter-0.9.0-py3-none-any.whl
-apis-import-project==0.2.0
-appdirs @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/68/c7/33/ef0f6af8d1aa906f1a5641762fe5d6f47d565c5a4b3482f1c6fb0f5f20/appdirs-1.4.4-py2.py3-none-any.whl
-appnope @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/db/10/31/24b2c5bc1fc158d51095265fd31ede89b3ac384a8a2307ffc7ec8d87bb/appnope-0.1.2-py2.py3-none-any.whl
-argon2-cffi @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a0/62/1a/aa7bda0a70d78695eedec634ef399b11752f9a0ebd9e4275fbe7f5e202/argon2_cffi-21.3.0-py3-none-any.whl
-argon2-cffi-bindings @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/79/6b/dc/050c4247dcfebc82b86855413f45224db695ae6e93d8d357bb73c47612/argon2_cffi_bindings-21.2.0-cp38-abi3-macosx_10_9_universal2.whl
-asgiref @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/12/c6/58/b461520efbe0ac0a67261f2d665156c3efabcc6392f021f3db62abbd51/asgiref-3.5.0-py3-none-any.whl
-astroid @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a6/c7/53/939b5ebecb5d0cb0900e3060f1c5305ef7d1dcedb6650b27d2a263bd52/astroid-2.9.3-py3-none-any.whl
-asttokens @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/1f/10/82/a525ec37c3d166a7fe9244892abdf3e09ecae4045243df4dda066b7dba/asttokens-2.0.5-py2.py3-none-any.whl
-async-timeout @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/31/90/f6/e2df01736b095fcbabf93cf579a4d9b8d7a4a78c4c63fad4d32320b197/async_timeout-4.0.2-py3-none-any.whl
-attrs @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/9a/27/ab/6895b786f345452394b42c1fdbe863803d0396e675b632c01cb13cad92/attrs-21.4.0-py2.py3-none-any.whl
-autopep8 @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/99/fa/8e/112982d07bedbc9f4184629dd998ac5b3cb0a01cdee98ded03128c72bc/autopep8-1.6.0-py2.py3-none-any.whl
-backcall @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/62/2c/f2/bf9c43ca0bcfca41150901227b0d023dc854851b710f82a72f5beaa09b/backcall-0.2.0-py2.py3-none-any.whl
-bleach @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c2/d4/65/1df2e21979f2ef4b2f78653a465a302f5138c7f42c9b2f816d0a5167f4/bleach-4.1.0-py2.py3-none-any.whl
-bowler @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f7/a0/59/7493f1f306d9cc4b1075bebefb7dabb54e193ad14b17d841ba1e3aae32/bowler-0.9.0-py3-none-any.whl
-Cerberus @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/db/ca/05/2009975493772eaa0c0e1dbf4c21ada4334691284306ed8f12e5dd18ac/Cerberus-1.3.4.tar.gz
-certifi @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/77/74/3e/daf57610ff13227e3b3f50a78487055f6ac94cc9363abd2463be34c5e9/certifi-2021.10.8-py2.py3-none-any.whl
-cffi @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e6/3a/ed/211634ffd1f9ed0a6957a6981ef59f3af9934e62dc2ee15819d9623196/cffi-1.15.0-cp38-cp38-macosx_10_9_x86_64.whl
-charset-normalizer @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ae/14/8e/087a104edb7ec627884755272de815d8ee4fd53b8745fdb12a087dd2e1/charset_normalizer-2.0.12-py3-none-any.whl
-click @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d0/b7/c0/76ec1424a198945d839eb2f192952791381b7feb7391d3734e25bb7650/click-8.0.4-py3-none-any.whl
-colorama @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b0/f3/a3/cf94f06cbe1d286a25116cfe54d5a75cb1c4b54d15b2b1b4fc03a7f657/colorama-0.4.4-py2.py3-none-any.whl
-convertdate @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a6/b0/fb/ad261235a26572630143230c8772fa4af853b4c5874c63b77d45dafdc0/convertdate-2.4.0-py3-none-any.whl
-debugpy @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ad/8d/d5/6a57a1ce0ade7f64d6d9895bc6e2fd0a534071a30094e246fd9ab91117/debugpy-1.5.1-cp38-cp38-macosx_10_15_x86_64.whl
-decorator @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b2/51/d1/b9c4dde2f3db3d279275d6fb62182a7076ecacc9e25c450e4af1e428ba/decorator-5.1.1-py3-none-any.whl
-defusedxml @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/15/b0/94/888992ee7b1de9fbc975b6afd17d34f441df6e96172df8d4eba95c9432/defusedxml-0.7.1-py2.py3-none-any.whl
-dephell @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/5a/64/e7/562fb841ff3ef21bf7e55645128dbb4e7a9d0b19186d192fc1197d8941/dephell-0.8.3-py3-none-any.whl
-dephell-archive @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/cd/41/32/f04fad40d2f4da26d2d73dec0ab7af8fcd083720f2b84fe40de608010f/dephell_archive-0.1.7-py3-none-any.whl
-dephell-argparse @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/af/14/f4/f3b67289aff2227cf01f24d091fcde69c59e9804be5fee471c4624c978/dephell_argparse-0.1.3-py3-none-any.whl
-dephell-changelogs @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4f/1b/71/8f6986507bb42e14620f7ee71ae88bf4edca089f952bd6ed3a70f3e285/dephell_changelogs-0.0.1-py3-none-any.whl
-dephell-discover @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b3/b5/cc/c635c9023335f9c75b3574b7f3a829001dcba6f42345d8fb90a265d29b/dephell_discover-0.2.10-py3-none-any.whl
-dephell-licenses @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b6/66/7f/bf0b516e4e2362e0ea1e2d85df0893f2f96437a53b9ed3e6a90a1bc491/dephell_licenses-0.1.7-py3-none-any.whl
-dephell-links @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4d/c4/ca/06e06a38f345140e8d4be776e3e9a7decfcdcc4f7f1853e4bc5751abf4/dephell_links-0.1.5-py3-none-any.whl
-dephell-markers @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/7c/3f/cd/fb16a5b938bb3ab75b7a7fc5f92f1cadb2c392c429e8106c56a0bf52d7/dephell_markers-1.0.3-py3-none-any.whl
-dephell-pythons @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/70/6a/89/d929c7ce0e628d4b0e3b46a530d255ba6ef16299e04086bff2b935823e/dephell_pythons-0.1.15-py3-none-any.whl
-dephell-setuptools @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/75/7a/7c/5fbc4c0366cc1315f292ab4af535b9d69f0adb349bab68eeb0ac71484d/dephell_setuptools-0.2.4-py3-none-any.whl
-dephell-shells @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b4/21/55/59982e2dcaec67a5864b35b3983065846991090d867e30ea5fbc7d73a2/dephell_shells-0.1.5-py3-none-any.whl
-dephell-specifier @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/96/7d/02/494125d3e4f47bfa8474fb41592df90d31347387adffc9dce3a8d85915/dephell_specifier-0.2.2-py3-none-any.whl
-dephell-venvs @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a4/63/69/63fdefe17c7d6cf97138e11f5bbbe59abe473ec7a32584e9b55a84d841/dephell_venvs-0.1.18-py3-none-any.whl
-dephell-versioning @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/da/74/a8/8a13bf0f827c1700d24523a6102b23eeaefacc850e73c9261a022fe37f/dephell_versioning-0.1.2-py3-none-any.whl
-dj-database-url @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/86/81/2f/8da8bcd6372e6797609dd5d6191fd427ed8aeb7bd818cfbf8c2d7b4cde/dj_database_url-0.5.0-py2.py3-none-any.whl
-Django @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/0d/e3/c9/057182fb6bc35bad5dde0675fe23b9acf5ffd67db247ccfd74debf89b5/Django-3.1.14-py3-none-any.whl
-django-admin-csvexport @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/81/a6/ae/80f161e6b02b46aedc165fbbbe8fa59a39a4aa4e0b895a856ca2a03a5b/django_admin_csvexport-1.11-py3-none-any.whl
-django-allow-cidr @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/0e/0a/2d/5e2a0aec498fbe5d2b9f67c4811a7e682f41fb93e22a850cb7bd1f2f1e/django_allow_cidr-0.3.1-py2.py3-none-any.whl
-django-autocomplete-light==3.8.2
-django-cors-headers @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/25/5b/9f/bc22a92ae6e0ed246fdfd50bf9d0ea31f05f82bce8414ba8c617cff2cf/django_cors_headers-3.11.0-py3-none-any.whl
-django-crispy-forms @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/27/c3/26/6e8b67af910b4fd41699e02b97815ce2be5a887471c00280e1b16abbf9/django_crispy_forms-1.14.0-py3-none-any.whl
-django-crum @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/3b/a4/57/a65af429af6b347965349b38c082baeb64407b822705854566fdf9fb2d/django_crum-0.7.9-py2.py3-none-any.whl
-django-csp @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b5/25/84/9f8ff55ff8af9a0132fcf55d2fd3c45351ff2c8793c7d3de826f82c52d/django_csp-3.7-py2.py3-none-any.whl
-django-extensions @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a5/ae/41/b699e3c3b28936257640c7eb795be0d77427c028d5ac7d6164164565b5/django_extensions-3.1.5-py3-none-any.whl
-django-filter @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/97/65/f1/a6904915c9e56f64f1ddf323d7ecbcc8b2efd5594a24403e23f47b37a4/django_filter-2.4.0-py3-none-any.whl
+acdh-django-charts==0.5.3
+aiofiles==0.8.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+anytree==2.8.0
+apis-bibsonomy==0.2.3
+apis-core==0.16.42
+apis-highlighter==0.8.20
+apis-import-project==0.3.2
+appdirs==1.4.4
+appnope==0.1.2
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asgiref==3.4.1
+astroid==2.9.0
+async-timeout==4.0.1
+attrs==21.2.0
+autopep8==1.6.0
+backcall==0.2.0
+backports.zoneinfo==0.2.1
+bleach==4.1.0
+bowler==0.9.0
+Cerberus==1.3.4
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.9
+click==8.0.3
+colorama==0.4.4
+convertdate==2.3.2
+debugpy==1.5.1
+decorator==5.1.0
+defusedxml==0.7.1
+dephell==0.8.3
+dephell-archive==0.1.7
+dephell-argparse==0.1.3
+dephell-changelogs==0.0.1
+dephell-discover==0.2.10
+dephell-licenses==0.1.7
+dephell-links==0.1.5
+dephell-markers==1.0.3
+dephell-pythons==0.1.15
+dephell-setuptools==0.2.4
+dephell-shells==0.1.5
+dephell-specifier==0.2.2
+dephell-venvs==0.1.18
+dephell-versioning==0.1.2
+dj-database-url==0.5.0
+Django==4.0
+django-admin-csvexport==1.11
+django-allow-cidr==0.3.1
+django-autocomplete-light==3.9.0rc1
+django-cors-headers==3.10.1
+django-crispy-forms==1.13.0
+django-crum==0.7.9
+django-csp==3.7
+django-extensions==3.1.5
+django-filter==2.4.0
 django-gm2m==1.1.1
-django-guardian @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f0/29/05/651f8ba7e522c50d1cb772b2b57cce47062183164ca779af88f773a825/django_guardian-2.4.0-py3-none-any.whl
-django-leaflet @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a0/0c/de/7c715d7f744e528a0a6a07f5fb6b97510542efc58dcaba198e245af1f0/django_leaflet-0.27.1-py3-none-any.whl
-django-model-utils @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/1b/f7/38/804becce76e0571bd49eb00ed281ba1f675a61039d81f75f555ca48ac7/django_model_utils-4.2.0-py3-none-any.whl
-django-reversion @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c4/b8/22/8ed5bba2d46b49364d229d61608019a703193920bee30bbdf56526a799/django_reversion-3.0.9-py3-none-any.whl
+django-guardian==2.4.0
+django-leaflet==0.27.1
+django-model-utils==4.2.0
+django-reversion==3.0.9
 django-summernote==0.8.20.0
-django-tables2 @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ee/fb/f8/a4489fe9587d6823971e319f5c8a55ffeda60c75edda3bb8c773c740d0/django_tables2-2.4.1-py2.py3-none-any.whl
-djangorestframework @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/26/35/a0/a6ce4be91f40db3745764f654be4505b601bbf4b5c9796c4c8e0272d74/djangorestframework-3.13.1-py3-none-any.whl
+django-tables2==2.4.1
+djangorestframework==3.13.0
 djangorestframework-csv==2.1.1
 djangorestframework-jsonschema==0.1.1
-djangorestframework-xml @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/51/ec/81/43ab434bd9047a3069ed0352a7cd31659831e53b15439e8a6c8c8626e0/djangorestframework_xml-2.0.0-py2.py3-none-any.whl
-docker @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ed/b7/3e/56e78286ef8d0a7448fec57066380ed41a0668cad0bc893d23edb62a3a/docker-4.2.2-py2.py3-none-any.whl
+djangorestframework-xml==2.0.0
+docker==5.0.3
 dockerpty==0.4.1
-docutils @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d1/9e/0a/bdeb3dada7b7579c1c2841da77905b44d18df184f1cfd9eb7248ad2187/docutils-0.18.1-py2.py3-none-any.whl
-drf-spectacular @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ba/44/86/367aafb528954ab8dbea1a1eead6e26ff791dbc8a1858cc01606108ede/drf_spectacular-0.11.1-py2.py3-none-any.whl
-entrypoints @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e1/87/5c/599600a1c57c18ae8d12a6b599957cfbe1667774faa8167ca7c152c988/entrypoints-0.4-py3-none-any.whl
-executing @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a6/79/45/c8a0628b0c0f2eca277164f5e34a1d59497b153414fb0bcaf9d3b1a46a/executing-0.8.3-py2.py3-none-any.whl
-fissix @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ac/5d/66/d8de98222c52891a5058fc61e99211e993028c4c951be95666e0dd31d9/fissix-21.11.13-py3-none-any.whl
-frozenlist @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c6/99/fc/be13b8900a279c29af582c43b55f7667a447e3f87710719b8a630658f6/frozenlist-1.3.0-cp38-cp38-macosx_10_9_x86_64.whl
-graphviz @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/74/e5/bb/a503bea65970de1a600981a29d147aefb6e1c8b5ae9979e43b3859abe0/graphviz-0.19.1-py3-none-any.whl
-gunicorn @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/eb/33/9c/43e158642e15413395d933fef80bb16fa6b50a6ed8dd157f506b6b2c03/gunicorn-20.1.0-py3-none-any.whl
-html5lib @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/3a/69/75/c20902b2e250d6aa35ef06815dd1cc66f7d2bc20b64941f5f116507d8d/html5lib-1.1-py2.py3-none-any.whl
-idna @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f7/09/c9/8e80952436ff87855ddff4891a35ecf913b2b5dc97911f02a070ff2b1f/idna-3.3-py3-none-any.whl
-inflection @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/77/a5/37/1d89e68ec499081400c10f729057f137e44a272bd6a954e634d0904dda/inflection-0.5.1-py2.py3-none-any.whl
-ipykernel @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b1/8d/e7/cca360b144aa2a31cdb8d97077cdc9519f53ed81f83983a26ffbc5e86e/ipykernel-6.9.1-py3-none-any.whl
-ipython @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/2a/4b/e9/f9fd27792aae748ab9c15338fd4b32120d32a1db91862ef2f93cc9e0e7/ipython-8.1.1-py3-none-any.whl
-ipython-genutils @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e6/8e/a3/8f37e14310c0072b3fcc4240490bcb42630aa695d069aee89953ebd9f8/ipython_genutils-0.2.0-py2.py3-none-any.whl
-ipywidgets @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/13/b5/43/b938f79239314b91a8160cdd8ff1644168cad0aef195945834a185c620/ipywidgets-7.6.5-py2.py3-none-any.whl
-isodate @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/45/f9/92/4deee18a89ce6066556633950e652c0a54415dcd7ea78e1c473d908270/isodate-0.6.1-py2.py3-none-any.whl
-isort @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/08/6b/bf/a994a4feb3ad0863ccc2edf385a86c88314f00f00732f08093af5fa3dc/isort-5.10.1-py3-none-any.whl
-jedi @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ae/67/fa/6c67b583f86d79757de2d88d5a7eafd656de0024925509ab85892cba18/jedi-0.18.1-py2.py3-none-any.whl
-Jinja2 @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f9/9a/d1/31d24b6a14d80530d2950db31fe7d51612fc7508b3648575c0fc5ea988/Jinja2-3.0.3-py3-none-any.whl
-jmespath @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/43/d5/a2/f83573231324de7f5b61f5c607fbbe82ca535359a452de4852d2e25e8d/jmespath-0.10.0-py2.py3-none-any.whl
-jsonschema @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8a/0f/f1/4a51263f4c7019004d5abd49f41d94c0eb4618233008d82a629134c337/jsonschema-3.2.0-py2.py3-none-any.whl
-jupyter @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/2e/44/a0/764f7d3907f220eb94db0e2bce1f8f3e50dcb48aca15a625dd210cb114/jupyter-1.0.0-py2.py3-none-any.whl
-jupyter-client @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8e/49/00/c89f3b6b3f069827bfa63b3f49a73c8bda9eb2ee8f3ed92867430fe7fc/jupyter_client-7.1.2-py3-none-any.whl
-jupyter-console @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/6c/7e/8c/fddf6753909644c778991ae972440aa6c84fc3b0375a533e98ecc9e06d/jupyter_console-6.4.3-py3-none-any.whl
-jupyter-core @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/65/75/57/7bdbdbcf04c8a623f181ac6698701e0ed891aefc254588857ca69029ba/jupyter_core-4.9.2-py3-none-any.whl
-jupyter-tabnine @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d7/b6/f3/943691ca9c1c0f6f0606fa1eedf994e5afc797b319cbbef9266637ae3f/jupyter_tabnine-1.2.3-py2.py3-none-any.whl
-jupyterlab-pygments @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c8/b0/10/ad75ecf240424057a12f5b4320da2c9f380541cdf830a39e7e8437c2c0/jupyterlab_pygments-0.1.2-py2.py3-none-any.whl
-jupyterlab-widgets @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4b/3f/13/7f7e8014e6ea67fab4a942882d870d27a15971f08b0b2660b4cdbcd03f/jupyterlab_widgets-1.0.2-py3-none-any.whl
-lazy-object-proxy @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e2/9f/e9/eea37a309c22064016bf20ef464c53aa420fa9af7a3e021f9a70e4a789/lazy_object_proxy-1.7.1-cp38-cp38-macosx_10_9_x86_64.whl
-lxml @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/37/4f/9a/fd17182583eba7d9bbc79c01842afb4c31487174dafedcf9a292c85de0/lxml-4.8.0-cp38-cp38-macosx_10_14_x86_64.whl
+docutils==0.18.1
+drf-spectacular==0.11.1
+entrypoints==0.3
+fissix==21.11.13
+frozenlist==1.2.0
+graphviz==0.19.1
+gunicorn==20.1.0
+html5lib==1.1
+idna==3.3
+inflection==0.5.1
+ipykernel==6.6.0
+ipython==7.30.1
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+isodate==0.6.1
+isort==5.10.1
+jedi==0.18.1
+Jinja2==3.0.3
+jmespath==0.10.0
+jsonschema==3.2.0
+jupyter==1.0.0
+jupyter-client==7.1.0
+jupyter-console==6.4.0
+jupyter-core==4.9.1
+jupyter-tabnine==1.2.3
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.2
+lazy-object-proxy==1.7.0
+lxml==4.7.1
 m2r==0.2.1
-MarkupSafe @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8c/bf/31/16268fc2fdcdb801fa1981e32cc1e3a2fd52bfbfbc5d14eee583e9d8d3/MarkupSafe-2.1.0-cp38-cp38-macosx_10_9_x86_64.whl
-matplotlib-inline @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/99/9e/a7/697624e74ebe7195097dbec4fe8bff67cf73c04390b69235ab5d6433b3/matplotlib_inline-0.1.3-py3-none-any.whl
-mccabe @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/37/6e/69/4a33a4d6c80c775b1ee205face2c6e07b762c8602bb0f0d236ebe790c5/mccabe-0.6.1-py2.py3-none-any.whl
-mistune @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d9/d8/5c/8eac14aaa95c3aa81409d56b7423ff6dd88eb398f551c1bf0b8c05b916/mistune-0.8.4-py2.py3-none-any.whl
-moreorless @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/31/21/cd/a3693b817ef8a8b1cd0609bc127a3633eebfd9a5df6355db13f72919dc/moreorless-0.4.0-py2.py3-none-any.whl
-multidict @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c4/3a/44/73afd6444e937d596aea05925a8af0ea0b60a3eeee54120cedec506745/multidict-6.0.2-cp38-cp38-macosx_10_9_x86_64.whl
+MarkupSafe==2.0.1
+matplotlib-inline==0.1.3
+mccabe==0.6.1
+mistune==0.8.4
+moreorless==0.4.0
+multidict==5.2.0
 mysqlclient==2.1.0
-nbclient @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ea/df/3f/551eddc9b72f48810bfb98b6889f67c73ab67763ba38285e32e8c46983/nbclient-0.5.12-py3-none-any.whl
-nbconvert @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/66/1e/7e/eae60a2a817256d40d1683b396d0928d66be570d29c92c2f3bcb996409/nbconvert-6.4.2-py3-none-any.whl
-nbformat @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/50/21/dd/ed31613a2f0fda01bcb038557b711726da40cbe5b483cf13719918d6b0/nbformat-5.1.3-py3-none-any.whl
-nest-asyncio @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b1/92/e3/c51193637e9b541cbd54ff31fae81c48d27724723f049c5b77ec89b227/nest_asyncio-1.5.4-py3-none-any.whl
-netaddr @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/18/ea/e1/077881da21ec36a8a17c3de06ee1522c97afb48f6657e35244e1d44626/netaddr-0.8.0-py2.py3-none-any.whl
-notebook @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8c/0e/4a/61a14282e703318854a547f77d1d13e400554d86e12fcb7dbe1bed11fb/notebook-6.4.8-py3-none-any.whl
-numpy @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4f/d1/d7/8d093793f8eba59dd4f8429abfc31414ef98d639be7eb02e5f630cacc6/numpy-1.22.3-cp38-cp38-macosx_10_14_x86_64.whl
-packaging @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/7f/d5/4c/1d3c4776012fc0bbe1f86e69bde2c5e36d2d32caa2e4845ac1fc08ab3f/packaging-21.3-py3-none-any.whl
-pandas @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e0/67/92/f5c4281485b9fda4e93b6d8387188a43fa1d3c2a7ed66f0e0530dab2c1/pandas-0.25.3-cp38-cp38-macosx_10_9_x86_64.whl
-pandocfilters @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/a0/1a/aa/08b056cf02efdac22abd6440fea5dbb93be4fe8c9c1f33c6d6f8795de7/pandocfilters-1.5.0-py2.py3-none-any.whl
-parso @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/6a/f4/ea/0e13aa5b67a5bf677f3cdb783604966525a765034fe82747e81bfcb3a7/parso-0.8.3-py2.py3-none-any.whl
-pexpect @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c0/05/08/f23ddb8e3d5b19e7cf01eb434220310be2aaf69226bdec78bc53589024/pexpect-4.8.0-py2.py3-none-any.whl
-pickleshare @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/27/b2/0a/93a92c700a1993b2923519262ddf76a629bd459a0597c0ae28bf80c7a6/pickleshare-0.7.5-py2.py3-none-any.whl
-platformdirs @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/69/d8/85/534d33a027326b761252b65d12289eed45f2fed6912d6ffd47affe6284/platformdirs-2.5.1-py3-none-any.whl
-prometheus-client @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/03/4c/54/827ea0e1ec643f5e690ad6515850b284b0f592bde33a6b672f15cbaddc/prometheus_client-0.13.1-py3-none-any.whl
-prompt-toolkit @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/af/1d/fe/d7f48f9507ddbc425385d08844f787c41bd9bcc73aa862aee7cba59db4/prompt_toolkit-3.0.28-py3-none-any.whl
-ptyprocess @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/b5/84/64/9519e6926ac101cbc8d93423b8165f4abac4f8a8e3e099f74d3c7e0e67/ptyprocess-0.7.0-py2.py3-none-any.whl
-pure-eval @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/46/f6/90/59d1e67b99f5ae271bf642a59b3ec0462e4cc4e3cc4252f907e059bbb4/pure_eval-0.2.2-py3-none-any.whl
-pycodestyle @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c8/b5/c4/20e98d955193296673ec9d57510115c96ea8c60a7e2cd212c3999f9d20/pycodestyle-2.8.0-py2.py3-none-any.whl
-pycparser @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/7a/f7/3b/fd50e9d7e1c02d2d2e8631fca716f6b6ffe3742f322e4a170eb3f2f41b/pycparser-2.21-py2.py3-none-any.whl
-Pygments @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/45/5a/e9/c12b0eddb67eb32efd5ec40d8dba9f3a6ccaa06365783aa6ea0c2fb1d6/Pygments-2.11.2-py3-none-any.whl
-pylint @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/15/da/fd/3d7630a19ae58d7aea7c8ba4f366000991270a8c056ac7dd6c25af2d10/pylint-2.12.2-py3-none-any.whl
+nbclient==0.5.9
+nbconvert==6.3.0
+nbformat==5.1.3
+nest-asyncio==1.5.4
+netaddr==0.8.0
+notebook==6.4.6
+numpy==1.21.4
+packaging==21.3
+pandas==0.25.3
+pandocfilters==1.5.0
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+platformdirs==2.4.0
+prometheus-client==0.12.0
+prompt-toolkit==3.0.24
+ptyprocess==0.7.0
+pycodestyle==2.8.0
+pycparser==2.21
+Pygments==2.10.0
+pylint==2.12.2
 PyMeeus==0.5.11
-pyparsing @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8a/67/7c/c21f632fb8255d9fc3882ed4548b0270011ef2a160a6031635274760a2/pyparsing-3.0.7-py3-none-any.whl
-pyrsistent @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ad/67/4e/2d5eaeaecc4955f8cf2610654363da220ea113ebbf32c7964926b8a4bc/pyrsistent-0.18.1-cp38-cp38-macosx_10_9_universal2.whl
-python-dateutil @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/0f/f1/e2/e1d3399cea26388e2ed5b93ea3e7c137d2b4027c5ba14c64ab839294ed/python_dateutil-2.8.2-py2.py3-none-any.whl
-python-gnupg @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4e/78/6b/9e17d749acfa80c60752f1fb7f4b5ccbb59db711808491794e1e951346/python_gnupg-0.4.8-py2.py3-none-any.whl
-pytz @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/07/c1/43/6f22a533e7bc5e277f10b4c6033e936ff7bbeb6464e5f27dbfb6c641d7/pytz-2021.3-py2.py3-none-any.whl
-PyYAML @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/99/c6/60/2baceb8eb743927ffda4f0184e9aea5339ca72c9a463509feeeb0d1668/PyYAML-5.4.1-cp38-cp38-macosx_10_9_x86_64.whl
-pyzmq @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d4/18/cd/4b50de2fe36cddc0a2c570dea01dc7a2322ad65edb2340dd2c503656d4/pyzmq-22.3.0-cp38-cp38-macosx_10_9_x86_64.whl
-qtconsole @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c2/3a/67/904371e518c385760803624d64b11819bc539404163ac8b75c5cc35fe5/qtconsole-5.2.2-py3-none-any.whl
-QtPy @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/81/56/fd/fb8c3d5701d15b498be5fcb5b0a08c5120147c05a6ecc50d7ff4a75a74/QtPy-2.0.1-py3-none-any.whl
-rdflib @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c3/63/56/c9496ca58a9f460c0eaf7ad3a22e81dd4613b031dd41b94b1b63cc7c76/rdflib-6.1.1-py3-none-any.whl
-regex @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e0/83/12/fa2b876292757ada6c8e31db47fe4a424e2527810123e5ed316006f6d3/regex-2020.11.13-cp38-cp38-macosx_10_9_x86_64.whl
-requests @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/dc/17/bf/8d9779110a13421f6181028974b24800ec70f28bf9b311411e1868b8c7/requests-2.27.1-py2.py3-none-any.whl
-ruamel.yaml @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d5/f4/75/e263b9884f0f4397551869371f3fef62b45b0b8a22efeb1a3ea8bfcf48/ruamel.yaml-0.17.21-py3-none-any.whl
-ruamel.yaml.clib @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/5d/80/dd/824ca287799afe2eb63701f9944d28fa37e448483e9f3b4e3460ee924d/ruamel.yaml.clib-0.2.6-cp38-cp38-macosx_10_9_x86_64.whl
-Send2Trash @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/04/75/07/732af573e27a23b54c8ecd612eadc3725f0ce6428aee277184a4d0c780/Send2Trash-1.8.0-py3-none-any.whl
-sentry-sdk @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/cf/fe/1a/a3297afd148aeca899de7c5fca485bcf0e14b1a260846b3ff4747741a7/sentry_sdk-0.19.5-py2.py3-none-any.whl
-shellingham @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/4b/83/6d/e35ec68166f5c637275dcae5c8411bbc624f69306d927f7e46b2a3e278/shellingham-1.4.0-py2.py3-none-any.whl
-six @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/48/e6/04/8118155ae3ec3a16dd2a213bbf7a7d8a62c596b2e90f73a22c896269f1/six-1.16.0-py2.py3-none-any.whl
-SPARQLWrapper @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/13/c8/79/58b6520220bb2271885d91833a022fc82c542bfb1590feaf5e4910ec2b/SPARQLWrapper-1.8.5-py3-none-any.whl
-sqlparse @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/bd/30/d0/940567a036c6ea57abe7098acbd123f8c8985ccc27713365ae80d28f89/sqlparse-0.4.2-py3-none-any.whl
-stack-data @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/33/24/a2/ec2351557cc3fe192e2873d7298845958a9402c960cc9dabe4f2a99b80/stack_data-0.2.0-py3-none-any.whl
-tablib @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/90/80/be/faf404f3f101102e094899f63ed994683bffc1081a5b76a1ffa77ac8c9/tablib-3.2.0-py3-none-any.whl
-tabulate @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/ce/47/3a/2fd6543e7838cb13b9fe26cb162f6cb896af0c126ae202fdd70bca0e85/tabulate-0.8.9-py3-none-any.whl
+pyparsing==3.0.6
+pyrsistent==0.18.0
+python-dateutil==2.8.2
+python-gnupg==0.4.8
+pytz==2021.3
+PyYAML==5.4.1
+pyzmq==22.3.0
+qtconsole==5.2.2
+QtPy==1.11.3
+rdflib==6.0.2
+regex==2020.11.13
+requests==2.26.0
+ruamel.yaml==0.17.17
+ruamel.yaml.clib==0.2.6
+Send2Trash==1.8.0
+sentry-sdk==0.20.3
+shellingham==1.4.0
+six==1.16.0
+SPARQLWrapper==1.8.5
+sqlparse==0.4.2
+tablib==3.1.0
+tabulate==0.8.9
 termcolor==1.1.0
-terminado @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/9c/3c/bb/af8fd1cf6e05699056f80e0bc4ec5721df151e71784e92b21dd4283b7c/terminado-0.13.3-py3-none-any.whl
-testpath @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/75/b1/ac/66d6e4427254deaaa4cfd7655327bbd86392c922c1d2658d543a3241e4/testpath-0.6.0-py3-none-any.whl
-toml @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/9f/8c/c3/7b4f6778d60f3c9fa11f8fd0e48243bbad25a04975e0a01006b6350594/toml-0.10.2-py2.py3-none-any.whl
-tomlkit @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/12/4c/82/4415de7e2413e45efebed4235d9fb0307b785ccb4253f3c06710a10f33/tomlkit-0.10.0-py3-none-any.whl
-tornado @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f8/e3/41/917f42a91e332f48e4150ee97f1c569a747bb58d2db08b1aa8a794fe06/tornado-6.1-cp38-cp38-macosx_10_9_x86_64.whl
-tqdm @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/dc/57/2c/8a65e897068881e9684e94d9c50fea98441ce8707af4cc713c518e506d/tqdm-4.63.0-py2.py3-none-any.whl
-traitlets @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/5a/b2/fe/46afb6102bca2dd670dd45aadb434937ff929571e6a86f833bfc4ba9a4/traitlets-5.1.1-py3-none-any.whl
-typing_extensions @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/d8/15/d9/af7ec814ed6e1c696c44ca3bfff21d29263f6bcf7f23801bddca78b3c7/typing_extensions-4.1.1-py3-none-any.whl
+terminado==0.12.1
+testpath==0.5.0
+toml==0.10.2
+tomlkit==0.7.2
+tornado==6.1
+traitlets==5.1.1
+typing-extensions==4.0.1
 unicodecsv==0.14.1
-uritemplate @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/56/89/57/c63bf42e1b1e6b55bbb8cfa907b246d870e08cf787726c3c8bb676e33d/uritemplate-4.1.1-py2.py3-none-any.whl
-urllib3 @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/66/2a/bb/22b56fafb85086d3ee6c6807644cffcd5fa6fc2bc537780143368ab6a9/urllib3-1.26.8-py2.py3-none-any.whl
-viecpro-vis @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/bf/1b/5e/1ee6c9765e3f21fc243009a5308ee70a0aadc9e9f98ae4562abcc61366/viecpro_vis-0.1.10-py3-none-any.whl
+uritemplate==4.1.1
+urllib3==1.26.7
+viecpro-vis==0.1.10
 volatile==2.1.0
-wcwidth @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/36/68/e2/7232f431072d5e8aeec124120b9a1d095d45da10311d271fac10982473/wcwidth-0.2.5-py2.py3-none-any.whl
-webencodings @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/60/1e/b4/eff9915b6506bb01a5ad61dfae3fa4f0302be9e2ad45eaccc833925b95/webencodings-0.5.1-py2.py3-none-any.whl
-websocket-client @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c8/b8/e5/df21ddb7f4e4985f6485467a556691458ab0c2e4aa044103278700a0e2/websocket_client-1.3.1-py3-none-any.whl
-whitenoise @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/e8/a2/75/4e726663ca0002d28f4ee57aae40c4499be2945e4d6aa7b2678f2de8e8/whitenoise-5.3.0-py2.py3-none-any.whl
-widgetsnbextension @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/22/c1/39/59f9d8d6a2d90a43f99448f8e4f5b0b95507173b5f2d03ff3e8c37110b/widgetsnbextension-3.5.2-py2.py3-none-any.whl
-wrapt @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/49/f7/2f/34b9abccd4a810c1f87cf4e399da97ba17b78aba9bb703236c32653135/wrapt-1.13.3-cp38-cp38-macosx_10_9_x86_64.whl
-yapf @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/8e/06/c2/734e078a3806d5bf04a1ef01a3256f4276d41e06733881230b9e2a562b/yapf-0.32.0-py2.py3-none-any.whl
-yarl @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/f1/71/2d/1439e8877c108b7d845e8e4199efa1fc8c8f30c3d25cdaa912722eba93/yarl-1.7.2-cp38-cp38-macosx_10_9_x86_64.whl
-yaspin @ file:///Users/gregorpirgie/Library/Caches/pypoetry/artifacts/c9/f9/85/a7745419a7b786e5bd6b91a6b9bdae7a4612671ecd52c2cd2703ff061b/yaspin-2.1.0-py3-none-any.whl
+wcwidth==0.2.5
+webencodings==0.5.1
+websocket-client==1.2.3
+whitenoise==5.3.0
+widgetsnbextension==3.5.2
+wrapt==1.13.3
+yapf==0.31.0
+yarl==1.7.2
+yaspin==2.1.0
