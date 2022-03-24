@@ -29,7 +29,7 @@ REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
     "rest_framework.permissions.IsAuthenticatedOrReadOnly",
 )
 
-CSP_DEFAULT_SRC += ("www.oeaw.ac.at", )
+CSP_DEFAULT_SRC += ("www.oeaw.ac.at", "mrp.oeaw.ac.at")
 
 APIS_RELATIONS_FILTER_EXCLUDE += ['annotation', 'annotation_set_relation']
 
