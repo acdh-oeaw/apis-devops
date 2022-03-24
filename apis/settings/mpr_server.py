@@ -25,11 +25,11 @@ DATABASES = {}
 
 DATABASES["default"] = dj_database_url.config(conn_max_age=600)
 
-
 REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
     "rest_framework.permissions.IsAuthenticatedOrReadOnly",
 )
 
+CSP_DEFAULT_SRC += ["oeaw.ac.at"]
 
 APIS_RELATIONS_FILTER_EXCLUDE += ['annotation', 'annotation_set_relation']
 
