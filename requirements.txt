@@ -6,7 +6,7 @@ anytree==2.8.0
 apis-bibsonomy==0.2.3
 apis-core==0.16.42
 apis-highlighter==0.8.20
-apis-import-project==0.3.2
+apis-import-project==0.3.3
 appdirs==1.4.4
 appnope==0.1.2
 argon2-cffi==21.3.0
