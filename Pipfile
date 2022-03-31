@@ -17,7 +17,7 @@ mysqlclient = "==2.*,>=2.0.3"
 sentry-sdk = "==0.*,>=0.19.5"
 viecpro-vis = "==0.*,>=0.1.10"
 whitenoise = "==5.*,>=5.2.0"
-apis-import-project = "==0.3.3"
+apis-import-project = "==0.3.4"
 
 [dev-packages]
 dephell = {version = "==0.*,>=0.8.3", extras = ["full"]}
