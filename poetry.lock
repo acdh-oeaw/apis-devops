@@ -939,6 +939,14 @@ PyYAML = ">=5.1"
 uritemplate = ">=2.0.0"
 
 [[package]]
+name = "dubletten-tool"
+version = "0.1.0"
+description = "APIS module for the VieCPro instance to perform manual deduplication of person instances"
+category = "main"
+optional = false
+python-versions = ">=3.8,<3.9"
+
+[[package]]
 name = "entrypoints"
 version = "0.3"
 description = "Discover and load entry points from installed packages."
@@ -2264,7 +2272,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "f0eb0da4abef5eea65668d762e2324677b6a5d5db4a3fdb75749610aa4cfd779"
+content-hash = "4a728937dc7ddf4bf160942b124c8f72e46d51c9c6f742838128f85c58b9cefd"
 
 [metadata.files]
 acdh-django-charts = [
@@ -2707,6 +2715,10 @@ docutils = [
 drf-spectacular = [
     {file = "drf-spectacular-0.11.1.tar.gz", hash = "sha256:9bd6a28edbf4a94f56c5c94622810710ad8c4de9fe6e659c527520eedb33d5e5"},
     {file = "drf_spectacular-0.11.1-py2.py3-none-any.whl", hash = "sha256:5f1147d4fbbbe757fd6705f75039ccf5f7ced8745254ec855bcd6b5c4c287262"},
+]
+dubletten-tool = [
+    {file = "dubletten_tool-0.1.0-py3-none-any.whl", hash = "sha256:100ded792aaae275b36f2b7560641f076a519e04f18e5980c2e00bcbf89f048d"},
+    {file = "dubletten_tool-0.1.0.tar.gz", hash = "sha256:de507f3db159d14be0c6682ab1bde493b5125f84d0404230b3ce4eb01e1a8a56"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
