@@ -940,7 +940,7 @@ uritemplate = ">=2.0.0"
 
 [[package]]
 name = "dubletten-tool"
-version = "0.1.0"
+version = "0.1.1"
 description = "APIS module for the VieCPro instance to perform manual deduplication of person instances"
 category = "main"
 optional = false
@@ -2272,7 +2272,7 @@ termcolor = ">=1.1.0,<2.0.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "4a728937dc7ddf4bf160942b124c8f72e46d51c9c6f742838128f85c58b9cefd"
+content-hash = "3ea8f83910a451e997baa5dc61ac2447e9391b8e5ec2740bc2594cb686b2e887"
 
 [metadata.files]
 acdh-django-charts = [
@@ -2717,8 +2717,8 @@ drf-spectacular = [
     {file = "drf_spectacular-0.11.1-py2.py3-none-any.whl", hash = "sha256:5f1147d4fbbbe757fd6705f75039ccf5f7ced8745254ec855bcd6b5c4c287262"},
 ]
 dubletten-tool = [
-    {file = "dubletten_tool-0.1.0-py3-none-any.whl", hash = "sha256:100ded792aaae275b36f2b7560641f076a519e04f18e5980c2e00bcbf89f048d"},
-    {file = "dubletten_tool-0.1.0.tar.gz", hash = "sha256:de507f3db159d14be0c6682ab1bde493b5125f84d0404230b3ce4eb01e1a8a56"},
+    {file = "dubletten_tool-0.1.1-py3-none-any.whl", hash = "sha256:262e734c37456d8e00d40f260e5f12065f25061510b94af5cad9940852881f08"},
+    {file = "dubletten_tool-0.1.1.tar.gz", hash = "sha256:830de0cfc4ca8881a2d91f7fb2d298d6497f163472f973f0c74e7a7cafa6ddf1"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
