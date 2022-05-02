@@ -41,11 +41,11 @@
         },
         "apis-core": {
             "hashes": [
-                "sha256:2a289e60ec6f87fd44f9679adf7bbbfc78bb7898cbe9345c8522d248b934edc2",
-                "sha256:6f8a28ed49011e1921edf2a978faf85fd0af6a18d5aa927b7a38c2c4a4a0c2d7"
+                "sha256:6b924d4e60668015f1ad31e2d25e2d489c24fef56ada59e7c93582e72eeffebe",
+                "sha256:97f8adfd674d64a038b143f33f277ebffa349da429bf5b94ba26be2ebfabbd2d"
             ],
             "index": "pypi",
-            "version": "==0.17.10"
+            "version": "==0.17.11"
         },
         "apis-highlighter": {
             "hashes": [
@@ -815,11 +815,11 @@
         },
         "astroid": {
             "hashes": [
-                "sha256:4e5ba10571e197785e312966ea5efb2f5783176d4c1a73fa922d474ae2be59f7",
-                "sha256:f1af57483cd17e963b2eddce8361e00fc593d1520fe19948488e94ff6476bd71"
+                "sha256:561dc6015eecce7e696ff7e3b40434bc56831afeff783f0ea853e19c4f635c06",
+                "sha256:da0632b7c046d8361dfe1b1abb2e085a38624961fabe2997565a9c06c1be9d9a"
             ],
             "markers": "python_full_version >= '3.6.2'",
-            "version": "==2.11.3"
+            "version": "==2.11.4"
         },
         "asttokens": {
             "hashes": [
@@ -1275,7 +1275,7 @@
                 "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7",
                 "sha256:e8443a5e7a020e9d7f97f1d7d9cd17c88bcb3bc7e218bf9cf5095fe550be2951"
             ],
-            "markers": "python_version < '4' and python_full_version >= '3.6.1'",
+            "markers": "python_full_version >= '3.6.1' and python_full_version < '4.0.0'",
             "version": "==5.10.1"
         },
         "jedi": {
@@ -2023,7 +2023,7 @@
                 "sha256:30d54c0b914e595f3d10a87888599eab5321a2a69abc773bbefff51599b72db6",
                 "sha256:905cf92c2111ef80d355708f47ac24ad1b6fc2adc5107455940088c9bbecaedb"
             ],
-            "markers": "python_version >= '3.6' and python_version < '4'",
+            "markers": "python_version >= '3.6' and python_full_version < '4.0.0'",
             "version": "==0.10.2"
         },
         "tornado": {
@@ -2315,7 +2315,7 @@
                 "sha256:c8d34eca9fda3f4dfbe59f57f3cf0f3641af3eefbf1544fbeb9b3bacf82c580a",
                 "sha256:d574cbfaf0a349df466c91f7f81b22460ae5ebb15ecb8bf9411d6049923aee8d"
             ],
-            "markers": "python_version < '4' and python_full_version >= '3.6.2'",
+            "markers": "python_full_version >= '3.6.2' and python_full_version < '4.0.0'",
             "version": "==2.1.0"
         },
         "zipp": {

@@ -73,7 +73,7 @@ apis-core = ">=0.16.0"
 
 [[package]]
 name = "apis-core"
-version = "0.17.10"
+version = "0.17.11"
 description = "Base package for the APIS framework"
 category = "main"
 optional = false
@@ -195,7 +195,7 @@ tests = ["pytest", "pytest-asyncio", "mypy (>=0.800)"]
 
 [[package]]
 name = "astroid"
-version = "2.11.3"
+version = "2.11.4"
 description = "An abstract syntax tree for Python with inference support."
 category = "dev"
 optional = false
@@ -2418,8 +2418,8 @@ apis-bibsonomy = [
     {file = "apis_bibsonomy-0.3.0-py3-none-any.whl", hash = "sha256:99b190953aa37ba928227d4a1232fdcd8aa1429f0789f1587d8d9fddb4de3db4"},
 ]
 apis-core = [
-    {file = "apis-core-0.17.10.tar.gz", hash = "sha256:2a289e60ec6f87fd44f9679adf7bbbfc78bb7898cbe9345c8522d248b934edc2"},
-    {file = "apis_core-0.17.10-py3-none-any.whl", hash = "sha256:6f8a28ed49011e1921edf2a978faf85fd0af6a18d5aa927b7a38c2c4a4a0c2d7"},
+    {file = "apis-core-0.17.11.tar.gz", hash = "sha256:6b924d4e60668015f1ad31e2d25e2d489c24fef56ada59e7c93582e72eeffebe"},
+    {file = "apis_core-0.17.11-py3-none-any.whl", hash = "sha256:97f8adfd674d64a038b143f33f277ebffa349da429bf5b94ba26be2ebfabbd2d"},
 ]
 apis-highlighter = [
     {file = "apis-highlighter-0.9.0.tar.gz", hash = "sha256:c8f0e92155de7246dd52b8204ac89aca5971c37e501f6b6aa0d505dbc8da3cf7"},
@@ -2469,8 +2469,8 @@ asgiref = [
     {file = "asgiref-3.5.1.tar.gz", hash = "sha256:fddeea3c53fa99d0cdb613c3941cc6e52d822491fc2753fba25768fb5bf4e865"},
 ]
 astroid = [
-    {file = "astroid-2.11.3-py3-none-any.whl", hash = "sha256:f1af57483cd17e963b2eddce8361e00fc593d1520fe19948488e94ff6476bd71"},
-    {file = "astroid-2.11.3.tar.gz", hash = "sha256:4e5ba10571e197785e312966ea5efb2f5783176d4c1a73fa922d474ae2be59f7"},
+    {file = "astroid-2.11.4-py3-none-any.whl", hash = "sha256:da0632b7c046d8361dfe1b1abb2e085a38624961fabe2997565a9c06c1be9d9a"},
+    {file = "astroid-2.11.4.tar.gz", hash = "sha256:561dc6015eecce7e696ff7e3b40434bc56831afeff783f0ea853e19c4f635c06"},
 ]
 asttokens = [
     {file = "asttokens-2.0.5-py2.py3-none-any.whl", hash = "sha256:0844691e88552595a6f4a4281a9f7f79b8dd45ca4ccea82e5e05b4bbdb76705c"},
