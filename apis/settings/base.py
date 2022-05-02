@@ -105,7 +105,7 @@ SPECTACULAR_SETTINGS: Dict[str, Any] = {
 }
 
 
-CSP_DEFAULT_SRC = ("'self'", "'unsafe-inline'", 'cdnjs.cloudflare.com', 'cdn.jsdelivr.net', 'fonts.googleapis.com', 
+CSP_DEFAULT_SRC = ("'self'", "'unsafe-inline'", "data: 'unsafe-eval'", 'cdnjs.cloudflare.com', 'cdn.jsdelivr.net', 'fonts.googleapis.com', 
                     'ajax.googleapis.com', 'cdn.rawgit.com', "*.acdh.oeaw.ac.at", "unpkg.com", "fonts.gstatic.com", 
                     "cdn.datatables.net", "code.highcharts.com", "*.acdh-dev.oeaw.ac.at", "*.acdh.oeaw.ac.at",
                     "openstreetmap.org", "*.openstreetmap.org")
