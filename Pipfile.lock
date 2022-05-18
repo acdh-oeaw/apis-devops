@@ -289,11 +289,11 @@
         },
         "dubletten-tool": {
             "hashes": [
-                "sha256:20ba447eec5d66f673d4dd4ebe4f13aefe82e6f11750d59f1131e34f4d751191",
-                "sha256:446eec61ecf2e7aa12cb29061e9f64aba57e2641f746cfccb011419b641596ad"
+                "sha256:1ec09151cb2e34e895df8d7f4faaefef5cea8d34bd86762f3c39dc8aef13adc1",
+                "sha256:edc338f90b9815e9cf2f74b706b4d28ae40949d638cbdaa238883b18ef0eebdd"
             ],
             "index": "pypi",
-            "version": "==0.1.2"
+            "version": "==0.1.4"
         },
         "gunicorn": {
             "hashes": [
