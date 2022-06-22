@@ -31,3 +31,17 @@ For spinning up a new instance you need to:
     - K8S_SECRET_DJANGO_SETTINGS_MODULE: Path of the Django setting to use in dot notation (e.g. apis.settings.mpr_server). You can either reuse one of the settings already available or add a new one to the repo
     - K8S_SECRET_ALLOWED_HOSTS (optional): If you reuse an existing setting you might want to override the `ALLOWED_HOSTS` with this env variable. E.g. `"localhost,127.0.0.1,mpr.acdh.oeaw.ac.at,mpr.acdh-cluster.arz.oeaw.ac.at"
 * [Run the pipeline](https://gitlab.com/acdh-oeaw/apis/apis-devops/-/pipelines/new) manually to deploy the new instance
+
+# Robots.txt Handling
+
+Basic robots.txt template served from the 'robots_template' folder in the root directory
+
+If you whish to serve a custom robots txt:
+- create an additional folder in the root directory
+- the folder can have any name
+- place your custom robots.txt inside this folder
+- the file must be named robots.txt
+- in your project-settings, change the value of the 'ROBOTS_TXT_FOLDER' variable 
+- DONE 
+
+

@@ -1,7 +1,10 @@
+import os
 from django.conf import settings
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.urls import path
+from django.views.generic.base import TemplateView
+
 
 from apis_core.apis_entities.api_views import GetEntityGeneric
 
@@ -72,4 +75,13 @@ if "oebl_irs_workflow" in settings.INSTALLED_APPS:
             include("oebl_irs_workflow.urls", namespace="oebl_irs_workflow"),
         )
     )
+
+# robots.txt route
+# handling of robots.txt files on instance-basis can be configured in settings, see Readme.md
+if os.path.exists(os.path.join(settings.ROBOTS_TXT_FOLDER,  "robots.txt")):
+        urlpatterns.append(
+    path("robots.txt", TemplateView.as_view(
+    template_name="robots.txt", content_type="text/plain")),
+    )
+
 handler404 = "webpage.views.handler404"

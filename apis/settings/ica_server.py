@@ -68,3 +68,16 @@ REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
         #"rest_framework.permissions.DjangoObjectPermissions",
         # use IsAuthenticated for every logged in user to have global edit rights
     )
+
+
+####### ROBOTS.TXT HANDLING #######
+
+# robots.txt file needs to be located in a folder that is registered as a template-dir
+# both the end of the url from where the file is served as well as the file itself needs to be named robots.txt
+# if you want to add your own robots txt, create a new folder in the root directory and register it here
+
+# replace the path to the folder in which the robots.txt file is to be found here
+ROBOTS_TXT_FOLDER = os.path.join(BASE_DIR, "robots_template")
+
+# register above folder as a template-dir
+TEMPLATES[0]["DIRS"] += [ROBOTS_TXT_FOLDER,]
