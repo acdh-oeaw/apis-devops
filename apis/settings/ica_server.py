@@ -64,7 +64,7 @@ APIS_SKOSMOS = {
 
 REST_FRAMEWORK["DEFAULT_PERMISSION_CLASSES"] = (
         #"rest_framework.permissions.DjangoModelPermissions"
-        "rest_framework.permissions.IsAuthenticated",
+        "rest_framework.permissions.IsAuthenticatedOrReadOnly",
         #"rest_framework.permissions.DjangoObjectPermissions",
         # use IsAuthenticated for every logged in user to have global edit rights
     )
