@@ -156,7 +156,7 @@ jobs:
         APP_NAME: "mpr-dev"
         APP_ROOT: ${{ needs.setup_workflow_env.outputs.APP_ROOT }}
         SERVICE_ID: "12919"
-        PUBLIC_URL: "https://ica.acdh-dev.oeaw.ac.at"
+        PUBLIC_URL: "https://mpr.acdh-dev.oeaw.ac.at"
         POSTGRES_ENABLED: ${{ needs.setup_workflow_env.outputs.POSTGRES_ENABLED == 'true'}}
         environment: "MPR Development"
         default_port: "${{ needs.setup_workflow_env.outputs.default_port}}"
