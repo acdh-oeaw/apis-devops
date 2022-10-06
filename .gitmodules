@@ -1,0 +1,3 @@
+[submodule "apis_core_submodule"]
+	path = apis-core
+	url = ../apis-core.git
