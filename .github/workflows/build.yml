@@ -102,7 +102,7 @@ jobs:
         SERVICE_ID: "19806"
         PUBLIC_URL: "https://viecpro-dev.acdh-dev.oeaw.ac.at"
         POSTGRES_ENABLED: ${{ needs.setup_workflow_env.outputs.POSTGRES_ENABLED == 'true'}}
-        environment: "ICA Production"
+        environment: "VieCPro Development"
         default_port: "${{ needs.setup_workflow_env.outputs.default_port}}"
   
   deploy_pmb_prod:
