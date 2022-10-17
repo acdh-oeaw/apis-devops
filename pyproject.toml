@@ -7,7 +7,7 @@ license = "MIT"
 
 
 [tool.poetry.dependencies]
-apis-core = { path = "apis-core/", develop = false }
+apis-core = { path = "/app/apis-core/", develop = false }
 python = "~3.8"
 whitenoise = "^5.2.0"
 sentry-sdk = "~1.5.12"
