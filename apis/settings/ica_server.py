@@ -81,3 +81,20 @@ ROBOTS_TXT_FOLDER = os.path.join(BASE_DIR, "robots_template")
 
 # register above folder as a template-dir
 TEMPLATES[0]["DIRS"] += [ROBOTS_TXT_FOLDER,]
+
+import sentry_sdk
+from sentry_sdk.integrations.django import DjangoIntegration
+
+sentry_sdk.init(
+    dsn="https://174a0f192d064beaab3513f30e922576@sentry.acdh-dev.oeaw.ac.at/14",
+    integrations=[DjangoIntegration()],
+
+    # Set traces_sample_rate to 1.0 to capture 100%
+    # of transactions for performance monitoring.
+    # We recommend adjusting this value in production.
+    traces_sample_rate=1.0,
+
+    # If you wish to associate users to errors (assuming you are using
+    # django.contrib.auth) you may enable sending PII data.
+    send_default_pii=True
+)
