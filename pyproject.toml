@@ -7,7 +7,7 @@ license = "MIT"
 
 
 [tool.poetry.dependencies]
-apis-core = { path = "/app/apis-core/", develop = false }
+apis-core = { path = "apis-core/", develop = false }
 python = "~3.8"
 whitenoise = "^5.2.0"
 sentry-sdk = "~1.5.12"
@@ -22,7 +22,7 @@ apis-bibsonomy = "~0.3"
 apis-highlighter = "~0.9"
 viecpro-vis = "^0.1.10"
 apis-import-project = "^0.3.4"
-dubletten-tool = "^0.1.0"
+dubletten-tool = "^0.1.9"
 
 [tool.poetry.dev-dependencies]
 django-extensions = "^3.1.0"
