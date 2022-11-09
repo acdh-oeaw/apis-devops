@@ -452,7 +452,7 @@ APIS_METAINFO = {"exclude": ["groups_allowed"]}
 APIS_ENTITIES = {
     "Place": {
         "merge": True,
-        "search": ["name"],
+        "search": ["name", "label__label"],
         "form_order": ["name", "kind", "lat", "lng", "status", "collection"],
         "table_fields": ["name"],
         "additional_cols": ["id", "lat", "lng", "part_of"],
@@ -468,7 +468,7 @@ APIS_ENTITIES = {
     },
     "Person": {
         "merge": True,
-        "search": ["name", "first_name"],
+        "search": ["name", "first_name", "label__label"],
         "form_order": [
             "first_name",
             "name",
@@ -499,7 +499,7 @@ APIS_ENTITIES = {
     },
     "Institution": {
         "merge": True,
-        "search": ["name"],
+        "search": ["name", "label__label"],
         "form_order": [
             "name",
             "start_date_written",
@@ -524,7 +524,7 @@ APIS_ENTITIES = {
     },
     "Work": {
         "merge": True,
-        "search": ["name"],
+        "search": ["name", "label__label"],
         "additional_cols": [
             "id",
             "kind",
@@ -540,7 +540,7 @@ APIS_ENTITIES = {
     },
     "Event": {
         "merge": True,
-        "search": ["name"],
+        "search": ["name", "label__label"],
         "additional_cols": [
             "id",
         ],
