@@ -116,9 +116,16 @@
                             </li>
                             {% endif %}
                             {% if "dubletten_tool" in APPS%}
-                            <li class="nav-item" >
-                                   <a class="nav-link" href="{% url 'dubletten_tool:tool_page' %}">Dubletten Tool</a>
-                           </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dubletten Tool
+                                    <span class="caret"/>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="nav-link" href="{% url 'dubletten_tool:tool_page' %}">Dubletten Tool</a>
+                                    <a class="nav-link" href="{% url 'dubletten_tool:tool_merge' %}">Edit Merges</a>
+                                </div>
+                            </li>
+        
                            {% endif %}
                             <li class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relations
