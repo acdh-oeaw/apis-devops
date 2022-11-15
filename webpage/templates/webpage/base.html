@@ -139,13 +139,11 @@
                             </li>
                             {% if user.is_authenticated and "apis_ampel" in APPS %}
 
-                            <!-- {% if "apis_ampel" in APPS %} -->
                             <li class="nav-item dropdown">
                              
                                     <a class="nav-link" href="{% url 'apis_ampel:ampel_settings' %}">Ampel</a>
                             </li>
                  
-                           <!-- {% endif %} -->
                            {% endif %}
                         </ul>
 

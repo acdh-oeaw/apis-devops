@@ -76,6 +76,14 @@ if "oebl_irs_workflow" in settings.INSTALLED_APPS:
         )
     )
 
+if "apis_ampel" in settings.INSTALLED_APPS:
+    urlpatterns.append(
+        url(
+            r"^apis_ampel/",
+            include("apis_ampel.urls", namespace="apis_ampel"),
+        )
+    )
+
 # robots.txt route
 # handling of robots.txt files on instance-basis can be configured in settings, see Readme.md
 if os.path.exists(os.path.join(settings.ROBOTS_TXT_FOLDER,  "robots.txt")):
@@ -85,3 +93,4 @@ if os.path.exists(os.path.join(settings.ROBOTS_TXT_FOLDER,  "robots.txt")):
     )
 
 handler404 = "webpage.views.handler404"
+
