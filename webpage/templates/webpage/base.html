@@ -137,7 +137,18 @@
                                     {% endfor %}
                                 </div>
                             </li>
+                            {% if user.is_authenticated and "apis_ampel" in APPS %}
+
+                            <!-- {% if "apis_ampel" in APPS %} -->
+                            <li class="nav-item dropdown">
+                             
+                                    <a class="nav-link" href="{% url 'apis_ampel:ampel_settings' %}">Ampel</a>
+                            </li>
+                 
+                           <!-- {% endif %} -->
+                           {% endif %}
                         </ul>
+
                         <ul class="navbar-nav justify-content-end">
                             {% if user.is_authenticated %}
                             <li class="nav-item dropdown ml-auto">
