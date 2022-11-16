@@ -20,9 +20,10 @@ django-extensions = "^3.1.3"
 django-csp = "^3.7"
 apis-bibsonomy = "~0.3"
 apis-highlighter = "~0.9"
-viecpro-vis = "^0.1.10"
 apis-import-project = "^0.3.4"
 dubletten-tool = "^0.1.9"
+apis-ampel = "^0.2.0"
+viecpro-vis = "0.1.10"
 
 [tool.poetry.dev-dependencies]
 django-extensions = "^3.1.0"

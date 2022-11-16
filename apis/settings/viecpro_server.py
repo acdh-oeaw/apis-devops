@@ -47,7 +47,7 @@ SPECTACULAR_SETTINGS["COMPONENT_SPLIT_REQUEST"] = True
 SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
 
 
-INSTALLED_APPS += ["viecpro_vis", "apis_import_project"]
+INSTALLED_APPS += ["viecpro_vis", "apis_import_project", "apis_ampel"]
 
 DATABASES = {}
 

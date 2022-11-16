@@ -45,7 +45,7 @@ SPECTACULAR_SETTINGS["COMPONENT_SPLIT_REQUEST"] = True
 SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
 
 
-INSTALLED_APPS += ["viecpro_vis", "dubletten_tool"]
+INSTALLED_APPS += ["viecpro_vis", "dubletten_tool", "apis_ampel"]
 
 DATABASES = {}
 
