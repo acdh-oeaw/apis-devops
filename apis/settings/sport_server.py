@@ -47,7 +47,7 @@ SPECTACULAR_SETTINGS["COMPONENT_SPLIT_REQUEST"] = True
 SPECTACULAR_SETTINGS["COMPONENT_NO_READ_ONLY_REQUIRED"] = True
 
 
-INSTALLED_APPS += ["bibsonomy", "highlighter"]
+INSTALLED_APPS += ["apis_bibsonomy", "apis_highlighter"]
 
 DATABASES = {}
 
