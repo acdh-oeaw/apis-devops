@@ -993,7 +993,7 @@ sidecar = ["drf-spectacular-sidecar"]
 
 [[package]]
 name = "dubletten-tool"
-version = "0.1.10"
+version = "0.1.11"
 description = "APIS module for the VieCPro instance to perform manual deduplication of person instances"
 category = "main"
 optional = false
@@ -2441,7 +2441,7 @@ termcolor-whl = "1.1.2"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "be6a4f64bd1bd8b96069643d5bd202579c7ad269ea28726f245649ec1dcc16a6"
+content-hash = "96807e24837469d54b3d9bbfee676461fe555d80d4ac5322a7e1e7d4f2c6eccd"
 
 [metadata.files]
 acdh-django-charts = []
