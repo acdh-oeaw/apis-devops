@@ -4,7 +4,7 @@ DEBUG = True
 DEV_VERSION = True
 
 sentry_sdk.init(
-    dsn="https://6a33d241537844c5b963cc3c3ba210fa@sentry.acdh-dev.oeaw.ac.at/4",
+    dsn="https://acd80363d7bb481da8dcbf763e4919e3@o4504360778661888.ingest.sentry.io/4504360893677568",
     integrations=[DjangoIntegration()],
     environment="development",
     # Set traces_sample_rate to 1.0 to capture 100%
