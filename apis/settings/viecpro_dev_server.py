@@ -4,9 +4,6 @@ import dj_database_url
 import os
 
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "^mm-24*i-6iecm7c@z9l+7%^ns^4g^z!8=dgffg4ulggr-4=1%"
-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 # REDMINE_ID = "14590"
@@ -35,9 +32,6 @@ ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
 CSP_DEFAULT_SRC = CSP_DEFAULT_SRC + ("sharonchoong.github.io", "github.com/devongovett")
 
-SECRET_KEY = (
-    "d3j@454545()(/)@zlck/6dsaf*#sdfsaf*#sadflj/6dsfk-11$)d6ixcvjsdfsdf&-u35#ayi"
-)
 DEBUG = True
 DEV_VERSION = False
 
