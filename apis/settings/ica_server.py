@@ -3,9 +3,6 @@ import os
 import dj_database_url
 import re
 
-# SECURITY WARNING: keep the secret key used in production secret!
-
-SECRET_KEY = '^mm-24*°111sdf0(&%%i-6iecm7c@z9lsadflkj84792373sdfl%^ns^4g^z!8=dgffg4ulggr-4=1%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
