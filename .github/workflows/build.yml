@@ -93,7 +93,7 @@ jobs:
   
   deploy_ica_prod:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
@@ -107,7 +107,7 @@ jobs:
 
   deploy_viecpro_dev:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
@@ -121,7 +121,7 @@ jobs:
   
   deploy_pmb_prod:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
@@ -135,7 +135,7 @@ jobs:
   
   deploy_viecpro_prod:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
@@ -149,7 +149,7 @@ jobs:
   
   deploy_mpr_prod:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
@@ -163,7 +163,7 @@ jobs:
   
   deploy_mpr_dev:
       needs: [setup_workflow_env, build_and_push_to_registry]
-      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy.yml@main
+      uses: acdh-oeaw/gl-autodevops-minimal-port/.github/workflows/deploy-cluster-2.yml@main
       secrets: inherit
       with:
         DOCKER_TAG: ${{ needs.setup_workflow_env.outputs.registry_root }}${{ needs.setup_workflow_env.outputs.image_tagged }}/${{ github.ref_name }}
