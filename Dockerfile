@@ -12,6 +12,7 @@ WORKDIR /app/
 # Prevents Python from writing .pyc files to disk
 ENV PYTHONDONTWRITEBYTECODE 1
 
+RUN apt update && apt install -y gdal-bin
 # ensures that the python output is sent straight to terminal (e.g. your container log)
 # without being first buffered and that you can see the output of your application (e.g. django logs)
 # in real time. Equivalent to python -u: https://docs.python.org/3/using/cmdline.html#cmdoption-u
@@ -32,7 +33,6 @@ ARG INSTALL_DEV=false
 
 COPY . /app
 
-RUN bash -c "if [ $INSTALL_DEV == 'true' ] ; then poetry install --no-root ; else poetry install --no-root --no-dev ; fi"
 
 ENV PYTHONPATH=/app
 
@@ -44,6 +44,9 @@ RUN chown -R app /usr/local
 # change to the app user
 # Switch to a non-root user, which is recommended by Heroku.
 USER app
+
+RUN poetry config virtualenvs.create false
+RUN bash -c "if [ $INSTALL_DEV == 'true' ] ; then poetry install --no-root ; else poetry install --no-root --no-dev ; fi"
 
 # 
 #CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

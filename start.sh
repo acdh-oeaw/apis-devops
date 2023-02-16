@@ -1,5 +1,6 @@
 #!/bin/bash
 #useradd -M celery
+[[ -z $DJANGO_SETTINGS_MODULE ]] || poetry install --only ${DJANGO_SETTINGS_MODULE//./_}
 export LC_ALL=C.UTF-8
 export LANG=C.UTF-8
 python manage.py migrate

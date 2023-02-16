@@ -39,3 +39,7 @@ flake8 = "^6.0.0"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.apis_settings_biographien]
+optional = true
+dependencies = {'apis-biographien-theme' = { git = "https://github.com/acdh-oeaw/apis-biographien-theme", branch = "birger/deploy" }}
