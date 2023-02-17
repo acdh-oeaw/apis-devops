@@ -19,8 +19,8 @@ APIS_RELATIONS_FILTER_EXCLUDE += ['annotation', 'annotation_set_relation']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-APIS_LIST_VIEWS_ALLOWED = False
-APIS_DETAIL_VIEWS_ALLOWED = False
+APIS_LIST_VIEWS_ALLOWED = True
+APIS_DETAIL_VIEWS_ALLOWED = True
 REDMINE_ID = "17197"
 
 #REST_FRAMEWORK['DEFAULT_PERMISSION_CLASSES'] = (
@@ -30,13 +30,13 @@ REDMINE_ID = "17197"
 ALLOWED_HOSTS = re.sub(
     r"https?://",
     "",
-    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,ica.acdh-dev.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at"),
+    os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1,ica.acdh-dev.oeaw.ac.at,.acdh-cluster.arz.oeaw.ac.at,.ica-db.acdh.oeaw.ac.at"),
 ).split(",")
 # You need to allow '10.0.0.0/8' for service health checks.
 ALLOWED_CIDR_NETS = ["10.0.0.0/8", "127.0.0.0/8"]
 
 PROJECT_NAME = "ica"
-APIS_BASE_URI = "https://ica.acdh-dev.oeaw.ac.at"
+APIS_BASE_URI = "https://ica-db.acdh.oeaw.ac.at"
 APIS_BLAZEGRAPH = (
     'https://blazegraph.herkules.arz.oeaw.ac.at/omnipot/sparql',
     os.environ.get('APIS_BLAZEGRAPH_USER'),
