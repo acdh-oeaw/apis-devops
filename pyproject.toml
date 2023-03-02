@@ -23,7 +23,7 @@ apis-import-project = "^0.3.4"
 dubletten-tool = "^0.2.0"
 apis-ampel = "^0.2.0"
 viecpro-vis = "0.1.10"
-apis-core = { path = "./app/apis-core/", develop = false }
+apis-core = { path = "/app/apis-core/", develop = false }
 
 [tool.poetry.group.dev]
 optional = true
