@@ -146,14 +146,14 @@ apis-core = ">=0.16.0"
 
 [[package]]
 name = "apis-import-project"
-version = "0.3.7"
+version = "0.4.0"
 description = "Generic Django-App for APIS-instances to support importing new data manually with a streamlined workflow and some automation."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "apis_import_project-0.3.7-py2.py3-none-any.whl", hash = "sha256:a9b20079c06d92e49c610a76cf94a61a174ca58fbd20d24871056c60d4434da5"},
-    {file = "apis_import_project-0.3.7.tar.gz", hash = "sha256:b07e9f0f8423852d6b3c1aeaeb762fda381f9d0bc85c00b6389ffc3b583ddcf5"},
+    {file = "apis_import_project-0.4.0-py2.py3-none-any.whl", hash = "sha256:4899283dfcaf1173c5f3857304660de643cb0e5b06fab21479f8ddf0adb16166"},
+    {file = "apis_import_project-0.4.0.tar.gz", hash = "sha256:d417efd2f5b1c9c4785b2fe51b002f7a4b727ea9f262528b067961a1957b0f3e"},
 ]
 
 [[package]]
@@ -3454,4 +3454,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.9"
-content-hash = "80b556e0628a63cf4eca6a32f6131e8f52a435b0cd021c06fefddbec0c725701"
+content-hash = "67ecaebda0a66f1ed7471dd72e35233032cf2c178bff44e5c51c2d38e447b22a"
