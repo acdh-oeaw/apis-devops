@@ -1077,14 +1077,14 @@ sidecar = ["drf-spectacular-sidecar"]
 
 [[package]]
 name = "dubletten-tool"
-version = "0.2.0"
+version = "0.2.1"
 description = "APIS module for the VieCPro instance to perform manual deduplication of person instances"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "dubletten_tool-0.2.0-py3-none-any.whl", hash = "sha256:2b5c0fa5eb9e183a6ba0c13b98ebe2c5a73dcd28a4cef46ac0cb22b0349233d4"},
-    {file = "dubletten_tool-0.2.0.tar.gz", hash = "sha256:ab7e8dbc2e0a59e809bf7360012aebc067cbd7630c234717f51d953ab2115af4"},
+    {file = "dubletten_tool-0.2.1-py3-none-any.whl", hash = "sha256:c12fd5e09676aa307a8a12575378e63b737da4ea1f3db08f43026afd9d550634"},
+    {file = "dubletten_tool-0.2.1.tar.gz", hash = "sha256:987dd028c89fca903addf3a9b755c37533fb02fe5b8f4b8e9bc56ab511591a43"},
 ]
 
 [package.dependencies]
@@ -3454,4 +3454,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.9"
-content-hash = "0f561c7267be94a1e3b98a7d462c50a9d5acf49134e878783bd4828d1f6413bd"
+content-hash = "80b556e0628a63cf4eca6a32f6131e8f52a435b0cd021c06fefddbec0c725701"

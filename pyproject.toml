@@ -20,7 +20,7 @@ django-csp = "^3.7"
 apis-bibsonomy = "~0.3"
 apis-highlighter = "~0.9"
 apis-import-project = "^0.3.4"
-dubletten-tool = "^0.2.0"
+dubletten-tool = "0.2.1"
 apis-ampel = "^0.2.0"
 viecpro-vis = "0.1.10"
 apis-core = { path = "/app/apis-core/", develop = false }
