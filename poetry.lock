@@ -66,14 +66,14 @@ files = [
 
 [[package]]
 name = "apis-bibsonomy"
-version = "0.4.0"
+version = "0.4.1"
 description = "Bibsonomy/Zotero plugin for managing refernces in APIS framework"
 category = "main"
 optional = false
 python-versions = ">=3.6,<3.12"
 files = [
-    {file = "apis_bibsonomy-0.4.0-py3-none-any.whl", hash = "sha256:992c5e92d050bfd6752d519925da103e523b6c640924863d23a003d017b1aaa5"},
-    {file = "apis_bibsonomy-0.4.0.tar.gz", hash = "sha256:9053126eb0160b14dac4c739b4597130a72aeb88e2288667950d52974740ce78"},
+    {file = "apis_bibsonomy-0.4.1-py3-none-any.whl", hash = "sha256:52f257ca98f47acfb020470739ed3dd613d1a3a99833d844608a7085817dc02e"},
+    {file = "apis_bibsonomy-0.4.1.tar.gz", hash = "sha256:22f53e87a0ae83e46eba1e5d86b9a18d7def0cf350eaf10b405af949768b5ce8"},
 ]
 
 [[package]]
@@ -3451,4 +3451,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<3.9"
-content-hash = "7256d67bd16429a78e2bbf09fe3210beec1da5cff16d48b469bcc396b5988f98"
+content-hash = "b2802ad090860e97b729a7455dbfb49a93f21bf2baaca816c072a2145b1997e2"
