@@ -126,3 +126,11 @@ ROBOTS_TXT_FOLDER = os.path.join(BASE_DIR, "robots_template")
 
 # register above folder as a template-dir
 TEMPLATES[0]["DIRS"] += [ROBOTS_TXT_FOLDER,]
+
+APIS_BIBSONOMY = [{     
+   'type': 'zotero', 
+   'url': 'https://api.zotero.org/',
+   'user': os.environ.get('APIS_BIBSONOMY_USER', ' '),
+   'API key': os.environ.get('APIS_BIBSONOMY_API_KEY', ' '), 
+   'group':  os.environ.get('APIS_BIBSONOMY_GROUP', ' ')
+}]
