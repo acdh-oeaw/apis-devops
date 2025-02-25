@@ -1,3 +1,5 @@
+# Archived
+apis-core has been superseded by [apis-core-rdf](https://github.com/acdh-oeaw/apis-core-rdf) and APIS instances using this new library are deployed from their own repos. This repo is archived as of 2025-02-25.
 # Generic APIS Devops to ACDH-CH Cluster
 This is a centralised APIS repository for deployment of default APIS instances to the ACDH-CH cluster.
 
